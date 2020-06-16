@@ -1,0 +1,42 @@
+logoutlocation:
+  world: world
+  x: 7.87940480022322
+  y: 68.0
+  z: 290.538701890083
+  yaw: 164.3974
+  pitch: 5.8500094
+lastAccountName: Ufututuru
+timestamps:
+  login: 1592249853742
+  logout: 1592251395738
+  kits:
+    premium: 1592242038136
+    start: 1592249042245
+    notch: 1592171598294
+    designer: 1592242006557
+    tools: 1592171592432
+    plus: 1592249066792
+  lastteleport: 1592238489559
+  lastheal: 1592206500678
+ipAddress: 127.0.0.1
+afk: false
+homes:
+  home:
+    world: world
+    x: 13.5
+    y: 69.0
+    z: 304.5
+    yaw: -112.20232
+    pitch: 16.650036
+powertools: {}
+socialspy: true
+lastlocation:
+  world: world
+  x: 26.29542004906568
+  y: 68.0
+  z: 303.81941330068383
+  yaw: -88.2023
+  pitch: 15.3000345
+teleportenabled: true
+money: '1'
+godmode: true

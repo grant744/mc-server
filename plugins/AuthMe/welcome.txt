@@ -1,0 +1,3 @@
+{PLAYER} на Liberty Craft
+
+Этот сервер использует AuthMeReloaded защиту!

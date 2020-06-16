@@ -1,0 +1,20 @@
+lastAccountName: Ivatashi
+timestamps:
+  login: 1592238093896
+  lastteleport: 1592238120188
+  logout: 1592238121281
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -26.651009895497182
+  y: 70.0
+  z: 476.35765194535696
+  yaw: 2.0380127
+  pitch: 62.55
+logoutlocation:
+  world: world
+  x: -34.5
+  y: 72.0
+  z: 478.5
+  yaw: 214.55048
+  pitch: 73.049995
