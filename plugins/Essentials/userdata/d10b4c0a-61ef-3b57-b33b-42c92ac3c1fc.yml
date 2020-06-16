@@ -1,15 +1,15 @@
 lastAccountName: Grant
 timestamps:
-  login: 1592305547789
-  logout: 1592302746510
+  login: 1592307451687
+  logout: 1592307453118
 ipAddress: 127.0.0.1
 logoutlocation:
   world: world
-  x: -216.762724523975
+  x: -169.8436595114045
   y: 66.0
-  z: 202.36645071599463
-  yaw: -79.95575
-  pitch: 18.14997
+  z: 202.71874268755312
+  yaw: -245.84996
+  pitch: 17.70001
 lastlocation:
   world: world
   x: -208.45417035059862
