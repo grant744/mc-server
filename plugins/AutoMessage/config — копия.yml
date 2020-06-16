@@ -1,9 +1,0 @@
-# Her you can change all Messages. The repeatingtime is in an seconds.
-AutoMessage:
-  '3': '&2&lNEWS&8 - &fVisit our shop &bshop.example.com'
-  '4': '&2&lNEWS&8 - &fBuy Premium &c/premium'
-  '5': '&2&lNEWS&8 - &fHave fun our &enetwork'
-  '1': '&2&lСообщение&8 - &fУспей воспользоваться скидкой 90% - промо код &4&lJMZLC'
-  '2': '&2&lСообщение&8 - Система автоматического доната гарантирует максимально удобное
-    и мгновенное приобретение необходимых вами товаров и услуг'
-  RepeatingTime: 15

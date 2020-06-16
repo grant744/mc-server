@@ -1,3 +1,3 @@
 @ECHO OFF
-java -Xmx2048M -Xms2048M -jar -Dfile.encoding=UTF-8 "spigot.jar"
+java -Xmx1000M -Xms1000M -jar -Dfile.encoding=UTF-8 "spigot.jar"
 PAUSE

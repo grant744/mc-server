@@ -1,10 +1,10 @@
 motd:
   ingame: ''
   system: '&b&lLibertyCraft. Здесь сбываются ваши мечты'
-  systembefore: '&b&lWelcome back!'
+  systembefore: '&b&lLibertyCraft. Здесь сбываются ваши мечты'
 AutoUpdate:
   Enabled: false
 Image:
-  faces: true
+  faces: false
   mask: false
-IP127,0,0,1: Ufututuru
+IP127,0,0,1: Grant
