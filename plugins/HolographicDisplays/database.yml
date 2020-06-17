@@ -1,0 +1,12 @@
+kit-start:
+  location: world, -353.423, 65.200, 241.468
+  lines:
+  - Если вы зашли на сервер впервые, то стоит прописать &2&l/kit start
+end:
+  location: world, -348.495, 65.200, 259.225
+  lines:
+  - Чтобы попасть в энд - пройдите испытание &d&l/warp End
+end-challenge:
+  location: world, -2014.853, 18.200, 286.737
+  lines:
+  - Найди портал в Энд

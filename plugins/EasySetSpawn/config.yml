@@ -57,8 +57,8 @@ first-join-message:
 config-version: '3.1'
 spawn:
   world: world
-  x: -194.62889070510283
-  y: 66.0
-  z: 140.4930110693322
-  yaw: 0.0
-  pitch: 0.3
+  x: -342.5949491988376
+  y: 64.0
+  z: 246.3661890444888
+  yaw: -46.741882
+  pitch: 17.249989

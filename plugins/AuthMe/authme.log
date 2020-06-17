@@ -1122,3 +1122,693 @@
 [06-16 16:29:37]: [FINE] §7ufututuru, §aGrant§7.
 [06-16 16:29:37]: [FINE] Grant logged in!
 [06-16 16:38:28]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-16 16:15:15]: [INFO] SQLite Setup finished
+[06-16 16:15:15]: [INFO] Hooked into PermissionsEx!
+[06-16 16:15:15]: [INFO] Hooked successfully into Essentials
+[06-16 16:15:15]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-16 16:15:15]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-16 16:15:16]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-16 16:15:16]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-16 16:15:16]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-16 16:16:56]: [FINE] Grant logged in!
+[06-16 16:18:47]: [FINE] Grant logged in!
+[06-16 16:18:56]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-16 16:22:46]: [INFO] SQLite Setup finished
+[06-16 16:22:46]: [INFO] Hooked into PermissionsEx!
+[06-16 16:22:46]: [INFO] Hooked successfully into Essentials
+[06-16 16:22:46]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-16 16:22:46]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-16 16:22:46]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-16 16:22:46]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-16 16:22:46]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-16 16:24:20]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-16 16:25:33]: [INFO] SQLite Setup finished
+[06-16 16:25:34]: [INFO] Hooked into PermissionsEx!
+[06-16 16:25:34]: [INFO] Hooked successfully into Essentials
+[06-16 16:25:34]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-16 16:25:34]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-16 16:25:34]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-16 16:25:34]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-16 16:25:34]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-16 16:25:47]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-16 16:26:50]: [INFO] SQLite Setup finished
+[06-16 16:26:50]: [INFO] Hooked into PermissionsEx!
+[06-16 16:26:50]: [INFO] Hooked successfully into Essentials
+[06-16 16:26:50]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-16 16:26:50]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-16 16:26:50]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-16 16:26:50]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-16 16:26:50]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-16 16:27:34]: [FINE] Grant logged in!
+[06-16 16:37:58]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-16 16:39:13]: [INFO] SQLite Setup finished
+[06-16 16:39:13]: [INFO] Hooked into PermissionsEx!
+[06-16 16:39:13]: [INFO] Hooked successfully into Essentials
+[06-16 16:39:13]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-16 16:39:14]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-16 16:39:14]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-16 16:39:14]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-16 16:39:14]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-16 16:40:13]: [FINE] Grant logged in!
+[06-16 16:41:21]: [FINE] Ufututuru logged in!
+[06-16 16:49:35]: [FINE] Ufututuru logged in!
+[06-16 16:53:02]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-16 16:56:09]: [INFO] SQLite Setup finished
+[06-16 16:56:09]: [INFO] Hooked into PermissionsEx!
+[06-16 16:56:09]: [INFO] Hooked successfully into Essentials
+[06-16 16:56:09]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-16 16:56:09]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-16 16:56:09]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-16 16:56:09]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-16 16:56:09]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-16 17:01:05]: [FINE] Grant logged in!
+[06-16 17:16:07]: [FINE] Ufututuru logged in!
+[06-16 17:49:18]: [FINE] Ufututuru logged in!
+[06-16 18:11:07]: [FINE] Grant logged in!
+[06-16 18:26:05]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-16 18:27:35]: [INFO] SQLite Setup finished
+[06-16 18:27:35]: [INFO] Hooked into PermissionsEx!
+[06-16 18:27:35]: [INFO] Hooked successfully into Essentials
+[06-16 18:27:35]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-16 18:27:36]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-16 18:27:36]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-16 18:27:36]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-16 18:27:36]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-16 18:28:36]: [FINE] Grant logged in!
+[06-16 18:29:09]: [FINE] Ufututuru logged in!
+[06-16 19:16:54]: [FINE] Stiv_23 registered 213.87.148.66
+[06-16 19:16:54]: [FINE] Stiv_23 logged in!
+[06-16 20:15:18]: [FINE] Vladus00 registered 178.93.225.121
+[06-16 20:15:18]: [FINE] Vladus00 logged in!
+[06-16 20:59:42]: [FINE] Ufututuru logged in!
+[06-16 21:04:33]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-16 21:04:42]: [INFO] SQLite Setup finished
+[06-16 21:04:42]: [INFO] Hooked into PermissionsEx!
+[06-16 21:04:42]: [INFO] Hooked successfully into Essentials
+[06-16 21:04:42]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-16 21:04:42]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-16 21:04:42]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-16 21:05:14]: [INFO] SQLite Setup finished
+[06-16 21:05:14]: [INFO] Hooked into PermissionsEx!
+[06-16 21:05:14]: [INFO] Hooked successfully into Essentials
+[06-16 21:05:14]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-16 21:05:14]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-16 21:05:15]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-16 21:05:15]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-16 21:05:15]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-16 21:05:56]: [FINE] Ufututuru logged in!
+[06-16 21:47:42]: [FINE] Grant logged in!
+[06-16 21:50:37]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-16 21:53:32]: [INFO] SQLite Setup finished
+[06-16 21:53:32]: [INFO] Hooked into PermissionsEx!
+[06-16 21:53:32]: [INFO] Hooked successfully into Essentials
+[06-16 21:53:32]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-16 21:53:32]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-16 21:53:32]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-16 21:53:32]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-16 21:53:32]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-16 21:54:16]: [FINE] Grant logged in!
+[06-16 22:06:02]: [FINE] Ufututuru logged in!
+[06-16 22:49:08]: [FINE] pacha_Killer registered 46.53.176.54
+[06-16 22:49:08]: [FINE] pacha_Killer logged in!
+[06-17 00:14:03]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-17 00:14:13]: [INFO] SQLite Setup finished
+[06-17 00:14:13]: [INFO] Hooked into PermissionsEx!
+[06-17 00:14:13]: [INFO] Hooked successfully into Essentials
+[06-17 00:14:13]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-17 00:14:13]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-17 00:14:13]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-17 00:15:21]: [INFO] SQLite Setup finished
+[06-17 00:15:21]: [INFO] Hooked into PermissionsEx!
+[06-17 00:15:21]: [INFO] Hooked successfully into Essentials
+[06-17 00:15:22]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-17 00:15:22]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-17 00:15:22]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-17 00:15:22]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-17 00:15:22]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-17 13:37:18]: [FINE] Grant logged in!
+[06-17 13:58:13]: [FINE] Grant logged in!
+[06-17 14:20:17]: [FINE] Grant logged in!
+[06-17 15:11:01]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-17 15:11:09]: [INFO] SQLite Setup finished
+[06-17 15:11:09]: [INFO] Hooked into PermissionsEx!
+[06-17 15:11:09]: [INFO] Hooked successfully into Essentials
+[06-17 15:11:09]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-17 15:11:09]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-17 15:11:09]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-17 15:14:12]: [INFO] SQLite Setup finished
+[06-17 15:14:12]: [INFO] Hooked into PermissionsEx!
+[06-17 15:14:13]: [INFO] Hooked successfully into Essentials
+[06-17 15:14:13]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-17 15:14:13]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-17 15:14:13]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-17 15:14:13]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-17 15:14:13]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-17 15:15:55]: [FINE] Ufututuru logged in!
+[06-17 15:21:14]: [FINE] Grant logged in!
+[06-17 15:32:12]: [FINE] Grant logged in!
+[06-17 16:01:50]: [FINE] Ufututuru logged in!
+[06-17 16:03:40]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-17 16:04:00]: [INFO] SQLite Setup finished
+[06-17 16:04:00]: [INFO] Hooked into PermissionsEx!
+[06-17 16:04:00]: [INFO] Hooked successfully into Essentials
+[06-17 16:04:00]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-17 16:04:00]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-17 16:04:00]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-17 16:04:01]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-17 16:04:01]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-17 16:04:11]: [FINE] Ufututuru logged in!
+[06-17 16:04:26]: [FINE] Grant logged in!
+[06-17 16:05:18]: [FINE] Ufututuru used the wrong password
+[06-17 16:05:29]: [FINE] Grant logged in!
+[06-17 16:05:31]: [FINE] Ufututuru logged in!
+[06-17 16:08:30]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-17 16:11:39]: [INFO] SQLite Setup finished
+[06-17 16:11:39]: [INFO] Hooked into PermissionsEx!
+[06-17 16:11:39]: [INFO] Hooked successfully into Essentials
+[06-17 16:11:40]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-17 16:11:40]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-17 16:11:40]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-17 16:11:40]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-17 16:11:40]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-17 16:12:21]: [FINE] Ufututuru logged in!
+[06-17 16:12:39]: [FINE] Grant logged in!
+[06-17 16:13:44]: [FINE] Grant logged in!
+[06-17 16:14:46]: [FINE] Ufututuru logged in!
+[06-17 16:15:20]: [FINE] Grant logged in!
+[06-17 16:17:01]: [FINE] HeHoPMaJIbHa9I registered 145.255.160.46
+[06-17 16:17:01]: [FINE] HeHoPMaJIbHa9I logged in!
+[06-17 16:17:03]: [FINE] Grant logged in!
+[06-17 16:21:21]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-17 16:21:42]: [INFO] SQLite Setup finished
+[06-17 16:21:43]: [INFO] Hooked into PermissionsEx!
+[06-17 16:21:43]: [INFO] Hooked successfully into Essentials
+[06-17 16:21:43]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-17 16:21:43]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-17 16:21:43]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-17 16:21:43]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-17 16:21:43]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-17 16:22:09]: [FINE] Grant logged in!
+[06-17 16:22:59]: [FINE] Ufututuru logged in!
+[06-17 16:23:34]: [FINE] Grant logged in!
+[06-17 16:24:36]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-17 16:25:24]: [INFO] SQLite Setup finished
+[06-17 16:25:24]: [INFO] Hooked into PermissionsEx!
+[06-17 16:25:24]: [INFO] Hooked successfully into Essentials
+[06-17 16:25:24]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-17 16:25:24]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-17 16:25:24]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-17 16:25:24]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-17 16:25:24]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-17 16:25:50]: [FINE] Grant logged in!
+[06-17 16:26:16]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-17 16:26:22]: [INFO] SQLite Setup finished
+[06-17 16:26:22]: [INFO] Hooked into PermissionsEx!
+[06-17 16:26:23]: [INFO] Hooked successfully into Essentials
+[06-17 16:26:23]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-17 16:26:23]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-17 16:26:23]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!
+[06-17 16:27:04]: [INFO] SQLite Setup finished
+[06-17 16:27:04]: [INFO] Hooked into PermissionsEx!
+[06-17 16:27:04]: [INFO] Hooked successfully into Essentials
+[06-17 16:27:04]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-17 16:27:05]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-17 16:27:05]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-17 16:27:05]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-17 16:27:05]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[06-17 16:27:16]: [FINE] Ufututuru logged in!
+[06-17 16:27:20]: [FINE] Grant logged in!
+[06-17 16:28:09]: [FINE] Grant logged in!
+[06-17 16:29:18]: [FINE] Grant logged in!
+[06-17 16:30:20]: [FINE] Grant logged in!
+[06-17 16:33:47]: [FINE] Grant logged in!
+[06-17 16:53:19]: [FINE] Ufututuru logged in!
+[06-17 21:10:16]: [INFO] SQLite Setup finished
+[06-17 21:10:17]: [INFO] Hooked into PermissionsEx!
+[06-17 21:10:17]: [INFO] Hooked successfully into Essentials
+[06-17 21:10:18]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[06-17 21:10:19]: [INFO] AuthMe 5.6.0-beta1 build n.2226 correctly enabled!
+[06-17 21:10:20]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[06-17 21:10:20]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[06-17 21:10:20]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:191)
+	at fr.xephi.authme.service.GeoIpService.downloadDatabaseArchive(GeoIpService.java:214)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:140)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[06-17 21:10:44]: [INFO] AuthMe 5.6.0-beta1-b2226 disabled!

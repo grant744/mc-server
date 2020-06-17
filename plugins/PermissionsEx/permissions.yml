@@ -182,8 +182,16 @@ groups:
     rank: '1000'
 schema-version: 1
 users:
-  743de5b7-fc62-3bb6-a733-1bdcf1f5f598:
-    group:
-    - default
+  3e5cf803-1183-43f5-a53d-ea53c61b6274:
+    743de5b7-fc62-3bb6-a733-1bdcf1f5f598:
+      group:
+      - Admin
+      options:
+        name: Ufututuru
+    d10b4c0a-61ef-3b57-b33b-42c92ac3c1fc:
+      group:
+      - Admin
+      options:
+        name: Grant
     options:
-      name: Ufututuru
+      name: ''
