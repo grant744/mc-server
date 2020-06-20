@@ -1,0 +1,23 @@
+items-Version: 6
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+items:
+  menu-item:
+    id: COMPASS
+    slot: 0
+    data-value: 0
+    name: '&eМеню'
+    lore:
+      - '&7Нажмите правой кнопкой мыши,'
+      - '&7чтобы узнать информацию из меню'
+    commands:
+      multi-click:
+        - 'player: menu'
+    commands-type: interact
+    commands-cooldown: 2
+    itemflags: death-drops, hide-attributes, cancel-events, inventory-modify
+    triggers: join, respawn, world-change
+    enabled-worlds: world, world_nether, world_the_end
+

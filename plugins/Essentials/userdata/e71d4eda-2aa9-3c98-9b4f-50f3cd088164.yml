@@ -1,0 +1,24 @@
+lastAccountName: YourDaddy
+timestamps:
+  login: 1561386283240
+  lastteleport: 1561235146083
+  logout: 1561387363004
+  kits:
+    tools: 1561219317843
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -11.90460700971479
+  y: 61.0
+  z: 17.37999383976865
+  yaw: -1.9489746
+  pitch: 28.200104
+afk: false
+logoutlocation:
+  world: world
+  x: -58.40059108981569
+  y: 65.0
+  z: 18.23734898907493
+  yaw: 289.80112
+  pitch: 5.099979
+money: '1615.0'

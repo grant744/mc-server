@@ -1,0 +1,328 @@
+Enable: yes
+Menu-Name: '&0Привилегии'
+Open-Sound: BLOCK_COMPARATOR_CLICK
+Open-Sound-Pitch: 3
+Rows: 5
+Command: 'donat;donate;донат'
+Items:
+- Slot: 7, 3
+  Material: SKULL_ITEM:1:3
+  Name: '&bПривилегия &f[&eВип&f]'
+  Lore:
+  - ''
+  - '&7Стоимость: &620 рублей'
+  - ''
+  - '&8▪ &7Открыть GUI верстака - &f/workbench'
+  - '&8▪ &7Вылечить себя - &f/heal'
+  - '&8▪ &7Потушить себя - &f/ext'
+  - '&8▪ &7Восстановить голод - &f/feed'
+  - '&8▪ &7Надевать различные вещи на голову - &f/hat'
+  - ''
+  - '&e▸ Получить ссылку на сайт'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFkMDQ3NmU4NjcxNjk2YWYzYTg5NDlhZmEyYTgxNGI5YmRkZTY1ZWNjZDFhOGI1OTNhZWVmZjVhMDMxOGQifX19'
+  Close: always
+  Commands:
+  - 'message: &7Наш сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 6, 3
+  Material: SKULL_ITEM:1:3
+  Name: '&bПривилегия &f[&5Премиум&f]'
+  Lore:
+  - ''
+  - '&7Стоимость: &6160 рублей'
+  - ''
+  - '&8▪ &7Доступна починка предметов - &f/repair'
+  - '&8▪ &7Авто-переплавка руды'
+  - '&8▪ &7Открыть GUI верстака - &f/workbench'
+  - '&8▪ &7Вылечить себя - &f/heal'
+  - '&8▪ &7Потушить себя - &f/ext'
+  - '&8▪ &7Восстановить голод - &f/feed'
+  - '&8▪ &7Надевать различные вещи на голову - &f/hat'
+  - ''
+  - '&e▸ Получить ссылку на сайт'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMzYTdhYTQ3MDUxY2Q1ZDE1ZDJjYjliZGI1ODhjZDIzZmRkNDU4NzNkOWJkOTU5NTcxNjE3N2NhMmNiYzk0In19fQ=='
+  Close: always
+  Commands:
+  - 'message: &7Наш сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 5, 3
+  Material: SKULL_ITEM:1:3
+  Name: '&bПривилегия &f[&aКреатив&f]'
+  Lore:
+  - ''
+  - '&7Стоимость: &699 рублей'
+  - ''
+  - '&8▪ &7Быстро очистить инвентарь &f/clear'
+  - '&8▪ &7Установить время для себя &f/ptime'
+  - '&8▪ &7Доступна починка предметов - &f/repair'
+  - '&8▪ &7Авто-переплавка руды'
+  - '&8▪ &7Открыть GUI верстака - &f/workbench'
+  - '&8▪ &7Вылечить себя - &f/heal'
+  - '&8▪ &7Потушить себя - &f/ext'
+  - '&8▪ &7Восстановить голод - &f/feed'
+  - '&8▪ &7Надевать различные вещи на голову - &f/hat'
+  - ''
+  - '&e▸ Получить ссылку на сайт'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNlY2RiODQ3ZTEwMTg0OWYzMzU0NzJhYzAyZGIwZDg4OTk2YTY5MThlZWU5NTc5NmRjZjg2Y2I0N2YyMTdlIn19fQ=='
+  Close: always
+  Commands:
+  - 'message: &7Наш сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 4, 3
+  Material: SKULL_ITEM:1:3
+  Name: '&bПривилегия &f[&cАдмин&f]'
+  Lore:
+  - ''
+  - '&7Стоимость: &6230 рублей'
+  - ''
+  - '&8▪ &7Доступен режим полёта &f/fly'
+  - '&8▪ &7Быстро очистить инвентарь &f/clear'
+  - '&8▪ &7Установить время для себя &f/ptime'
+  - '&8▪ &7Доступна починка предметов - &f/repair'
+  - '&8▪ &7Авто-переплавка руды'
+  - '&8▪ &7Открыть GUI верстака - &f/workbench'
+  - '&8▪ &7Вылечить себя - &f/heal'
+  - '&8▪ &7Потушить себя - &f/ext'
+  - '&8▪ &7Восстановить голод - &f/feed'
+  - '&8▪ &7Надевать различные вещи на голову - &f/hat'
+  - ''
+  - '&e▸ Получить ссылку на сайт'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4NTJiYTE1ODRkYTllNTcxNDg1OTk5NTQ1MWU0Yjk0NzQ4YzRkZDYzYWU0NTQzYzE1ZjlmOGFlYzY1YzgifX19'
+  Close: always
+  Commands:
+  - 'message: &7Наш сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 3, 3
+  Material: SKULL_ITEM:1:3
+  Name: '&bПривилегия &f[&3Лорд&f]'
+  Lore:
+  - ''
+  - '&7Стоимость: &6400 рублей'
+  - ''
+  - '&e▪ &fС вами дружит сам &b&lПутин'
+  - ''
+  - '&8▪ &7Доступен режим бога &f/god'
+  - '&8▪ &7Вернуться на место смерти &f/back'
+  - '&8▪ &7Доступен режим полёта &f/fly'
+  - '&8▪ &7Быстро очистить инвентарь &f/clear'
+  - '&8▪ &7Установить время для себя &f/ptime'
+  - '&8▪ &7Доступна починка предметов - &f/repair'
+  - '&8▪ &7Авто-переплавка руды'
+  - '&8▪ &7Открыть GUI верстака - &f/workbench'
+  - '&8▪ &7Вылечить себя - &f/heal'
+  - '&8▪ &7Потушить себя - &f/ext'
+  - '&8▪ &7Восстановить голод - &f/feed'
+  - '&8▪ &7Надевать различные вещи на голову - &f/hat'
+  - ''
+  - '&e▸ Получить ссылку на сайт'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE5OWQ5ZWU2NTEzYWE4OGEzYzQ1NmFiYTJiZDFlMTdkMTM0NDQ4ZmQxMTc3NWJkMWQ1NWVmNjlhYTc3ZDIzMCJ9fX0='
+  Close: always
+  Commands:
+  - 'message: &7Наш сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 7, 2
+  Material: SKULL_ITEM:1:3
+  Name: '&bПривилегия &f[&cГл. админ&f]'
+  Lore:
+  - ''
+  - '&7Стоимость: &6530 рублей'
+  - ''
+  - '&e▪ &fС вами дружит сам &b&lПутин'
+  - '&e▪ &fДоступ к &6&lконсоли сервера'
+  - ''
+  - '&8▪ &7Доступен режим бога &f/god'
+  - '&8▪ &7Вернуться на место смерти &f/back'
+  - '&8▪ &7Доступен режим полёта &f/fly'
+  - '&8▪ &7Быстро очистить инвентарь &f/clear'
+  - '&8▪ &7Установить время для себя &f/ptime'
+  - '&8▪ &7Доступна починка предметов - &f/repair'
+  - '&8▪ &7Авто-переплавка руды'
+  - '&8▪ &7Открыть GUI верстака - &f/workbench'
+  - '&8▪ &7Вылечить себя - &f/heal'
+  - '&8▪ &7Потушить себя - &f/ext'
+  - '&8▪ &7Восстановить голод - &f/feed'
+  - '&8▪ &7Надевать различные вещи на голову - &f/hat'
+  - ''
+  - '&e▸ Получить ссылку на сайт'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4NTJiYTE1ODRkYTllNTcxNDg1OTk5NTQ1MWU0Yjk0NzQ4YzRkZDYzYWU0NTQzYzE1ZjlmOGFlYzY1YzgifX19'
+  Close: always
+  Commands:
+  - 'message: &7Наш сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 6, 2
+  Material: SKULL_ITEM:1:3
+  Name: '&bПривилегия &f[&eСпонсор&f]'
+  Lore:
+  - ''
+  - '&7Стоимость: &6770 рублей'
+  - ''
+  - '&e▪ &fС вами дружит сам &b&lПутин'
+  - '&e▪ &fДоступ к &6&lконсоли сервера'
+  - '&e▪ &fГриферы &eстороняться &fВас'
+  - ''
+  - '&8▪ &7Доступен режим бога &f/god'
+  - '&8▪ &7Вернуться на место смерти &f/back'
+  - '&8▪ &7Доступен режим полёта &f/fly'
+  - '&8▪ &7Быстро очистить инвентарь &f/clear'
+  - '&8▪ &7Установить время для себя &f/ptime'
+  - '&8▪ &7Доступна починка предметов - &f/repair'
+  - '&8▪ &7Авто-переплавка руды'
+  - '&8▪ &7Открыть GUI верстака - &f/workbench'
+  - '&8▪ &7Вылечить себя - &f/heal'
+  - '&8▪ &7Потушить себя - &f/ext'
+  - '&8▪ &7Восстановить голод - &f/feed'
+  - '&8▪ &7Надевать различные вещи на голову - &f/hat'
+  - ''
+  - '&e▸ Получить ссылку на сайт'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFkMDQ3NmU4NjcxNjk2YWYzYTg5NDlhZmEyYTgxNGI5YmRkZTY1ZWNjZDFhOGI1OTNhZWVmZjVhMDMxOGQifX19'
+  Close: always
+  Commands:
+  - 'message: &7Наш сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 5, 2
+  Material: SKULL_ITEM:1:3
+  Name: '&bПривилегия &f[&bСоздатель&f]'
+  Lore:
+  - ''
+  - '&7Стоимость: &61200 рублей'
+  - ''
+  - '&e▪ &fС вами дружит сам &b&lПутин'
+  - '&e▪ &fДоступ к &6&lконсоли сервера'
+  - '&e▪ &fГриферы &eстороняться &fВас'
+  - ''
+  - '&8▪ &7Доступен режим бога &f/god'
+  - '&8▪ &7Вернуться на место смерти &f/back'
+  - '&8▪ &7Доступен режим полёта &f/fly'
+  - '&8▪ &7Быстро очистить инвентарь &f/clear'
+  - '&8▪ &7Установить время для себя &f/ptime'
+  - '&8▪ &7Доступна починка предметов - &f/repair'
+  - '&8▪ &7Авто-переплавка руды'
+  - '&8▪ &7Открыть GUI верстака - &f/workbench'
+  - '&8▪ &7Вылечить себя - &f/heal'
+  - '&8▪ &7Потушить себя - &f/ext'
+  - '&8▪ &7Восстановить голод - &f/feed'
+  - '&8▪ &7Надевать различные вещи на голову - &f/hat'
+  - ''
+  - '&e▸ Получить ссылку на сайт'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdiOWRmZDI4MWRlYWVmMjYyOGFkNTg0MGQ0NWJjZGE0MzZkNjYyNjg0NzU4N2YzYWM3NjQ5OGE1MWM4NjEifX19'
+  Close: always
+  Commands:
+  - 'message: &7Наш сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 4, 2
+  Material: SKULL_ITEM:1:3
+  Name: '&bПривилегия &f[&9Модер&f]'
+  Lore:
+  - ''
+  - '&7Стоимость: &61800 рублей'
+  - ''
+  - '&e▪ &fС вами дружит сам &b&lПутин'
+  - '&e▪ &fДоступ к &6&lконсоли сервера'
+  - '&e▪ &fГриферы &eстороняться &fВас'
+  - ''
+  - '&8▪ &7Доступен режим бога &f/god'
+  - '&8▪ &7Вернуться на место смерти &f/back'
+  - '&8▪ &7Доступен режим полёта &f/fly'
+  - '&8▪ &7Быстро очистить инвентарь &f/clear'
+  - '&8▪ &7Установить время для себя &f/ptime'
+  - '&8▪ &7Доступна починка предметов - &f/repair'
+  - '&8▪ &7Авто-переплавка руды'
+  - '&8▪ &7Открыть GUI верстака - &f/workbench'
+  - '&8▪ &7Вылечить себя - &f/heal'
+  - '&8▪ &7Потушить себя - &f/ext'
+  - '&8▪ &7Восстановить голод - &f/feed'
+  - '&8▪ &7Надевать различные вещи на голову - &f/hat'
+  - ''
+  - '&e▸ Получить ссылку на сайт'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk2NDg4MDU1MWM0OTIyMzM2ODk2NTdmMjZhOTllNGZlNjFhZDJhZjcxMmIwNDAyNzJiYWQ2YzhmNDExIn19fQ=='
+  Close: always
+  Commands:
+  - 'message: &7Наш сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 3, 2
+  Material: SKULL_ITEM:1:3
+  Name: '&bПривилегия &f[&dОснователь&f]'
+  Lore:
+  - ''
+  - '&7Стоимость: &63000 рублей'
+  - ''
+  - '&e▪ &fС вами дружит сам &b&lПутин'
+  - '&e▪ &fДоступ к &6&lконсоли сервера'
+  - '&e▪ &fВы - местный &c&lавторитет'
+  - '&e▪ &fГриферы &eстороняться &fВас'
+  - ''
+  - '&8▪ &7Доступен режим бога &f/god'
+  - '&8▪ &7Вернуться на место смерти &f/back'
+  - '&8▪ &7Доступен режим полёта &f/fly'
+  - '&8▪ &7Быстро очистить инвентарь &f/clear'
+  - '&8▪ &7Установить время для себя &f/ptime'
+  - '&8▪ &7Доступна починка предметов - &f/repair'
+  - '&8▪ &7Авто-переплавка руды'
+  - '&8▪ &7Открыть GUI верстака - &f/workbench'
+  - '&8▪ &7Вылечить себя - &f/heal'
+  - '&8▪ &7Потушить себя - &f/ext'
+  - '&8▪ &7Восстановить голод - &f/feed'
+  - '&8▪ &7Надевать различные вещи на голову - &f/hat'
+  - ''
+  - '&e▸ Получить ссылку на сайт'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg0NzU3ZWM3MjYxMmVlYWMxOWNjYWY4MGIzMWM4NjFjNzkxZjI1ZDMyZGRhM2ZiMzdmNTUyMDU3NTVhMDQifX19'
+  Close: always
+  Commands:
+  - 'message: &7Наш сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 5, 1
+  Material: SKULL_ITEM:1:3
+  Name: '&bПривилегия &f[&6Ютубер&f]'
+  Lore:
+  - ''
+  - '&7Стоимость: &65000 рублей'
+  - ''
+  - '&e▪ &fС вами дружит сам &b&lПутин'
+  - '&e▪ &fДоступ к &6&lконсоли сервера'
+  - '&e▪ &fВы - местный &c&lавторитет'
+  - '&e▪ &fВсе &3&lтяночки текут от Вашего &c&lпрефикса'
+  - '&e▪ &fГриферы &eстороняться &fВас'
+  - ''
+  - '&8▪ &7Доступен режим бога &f/god'
+  - '&8▪ &7Вернуться на место смерти &f/back'
+  - '&8▪ &7Доступен режим полёта &f/fly'
+  - '&8▪ &7Быстро очистить инвентарь &f/clear'
+  - '&8▪ &7Установить время для себя &f/ptime'
+  - '&8▪ &7Доступна починка предметов - &f/repair'
+  - '&8▪ &7Авто-переплавка руды'
+  - '&8▪ &7Открыть GUI верстака - &f/workbench'
+  - '&8▪ &7Вылечить себя - &f/heal'
+  - '&8▪ &7Потушить себя - &f/ext'
+  - '&8▪ &7Восстановить голод - &f/feed'
+  - '&8▪ &7Надевать различные вещи на голову - &f/hat'
+  - ''
+  - '&e▸ Получить ссылку на сайт'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJmNmMwN2EzMjZkZWY5ODRlNzJmNzcyZWQ2NDU0NDlmNWVjOTZjNmNhMjU2NDk5YjVkMmI4NGE4ZGNlIn19fQ=='
+  Close: always
+  Commands:
+  - 'message: &7Наш сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 9, 2
+  Material: 386
+  Name: '&bНаши цели'
+  Lore:
+  - '&7Все деньги полученные с покупок'
+  - '&7доната, идут на развитие проекта:'
+  - ''
+  - '&8▪ &fОборудование'
+  - '&8▪ &fРазработка режимов'
+  - '&8▪ &fПоддержка игроков'
+  - ''
+  - '&7Если же вы надумали нам помочь, наш'
+  - '&7сайт с привилегиями - &6www.moonstudio.net'
+- Slot: 9, 3
+  Material: SKULL_ITEM:1:3
+  Name: '&bДополнительные услуги'
+  Lore:
+  - '&7Всевозможные косметические улучшения'
+  - '&7для вашего персонажа, игровая валюта,'
+  - '&7мистические сундуки, пыль и многие'
+  - '&7другие интересные предложения'
+  - ''
+  - '&e▸ Открыть меню услуг'
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTliOTA2YjIxNTVmMTkzNzg3MDQyMzM4ZDA1Zjg0MDM5MWMwNWE2ZDNlODE2MjM5MDFiMjk2YmVlM2ZmZGQyIn19fQ=='
+  Commands:
+  - 'console: animatedmenu open more %player_name%'
+- Slot: 5, 5
+  Material: SKULL_ITEM:1:3
+  Name: '&cНазад'
+  Lore:
+  - '&7Нажмите, чтобы вернуться'
+  - '&7назад в игровое меню'
+  Skull-Owner: 'MHF_ArrowLeft'
+  Commands:
+  - 'menu'

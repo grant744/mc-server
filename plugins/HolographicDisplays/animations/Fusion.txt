@@ -1,0 +1,10 @@
+Speed: 1.75
+&f[&7Fusion&f]
+&f[&eFusion&f]
+&f[&bFusion&f]
+&f[&aFusion&f]
+&f[&cFusion&f]
+&f[&2Fusion&f]
+&f[&6Fusion&f]
+&f[&3Fusion&f]
+&f[&dFusion&f]

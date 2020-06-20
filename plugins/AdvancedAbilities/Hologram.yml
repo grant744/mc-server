@@ -1,0 +1,11 @@
+hologram:
+  # Enable holograms
+  enable: true
+  # These lines will displayed in the hologram
+  stats:
+  - '&6&m+------------------------------------------------+'
+  - '{type_title}'
+  - '{type_description}'
+  - '&6&m+------------------------------------------------+'
+  # Do not change anything of here, if you want to remove any hologram use /abilities hologram remove <world> <id>
+  location: []

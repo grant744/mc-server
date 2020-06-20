@@ -1,0 +1,65 @@
+mob-arena-drops-enabled: false
+money:
+  material: GOLD_NUGGET
+  different-levels-enabled: true
+  different-levels:
+    lo:
+      material: GOLD_NUGGET
+    med:
+      min: 13
+      max: 17
+      material: GOLD_INGOT
+    hi:
+      material: GOLD_BLOCK
+send-messages: false
+hopper-pickup-money: false
+whole-integer: false
+use-permissions: false
+shift-for-money: false
+drop-negative-money: false
+multiply-ground-money: false
+particle:
+  enabled: true
+  per-mob: false
+  type: FLAME
+  offset-x:
+    min: -1.0
+    max: 1.0
+  offset-y:
+    min: -1.0
+    max: 1.0
+  amount: 5
+  id: 0
+  data: 0
+  speed: 0.1
+  radius: 15
+sound:
+  enabled: true
+  per-mob: false
+  type: UI_BUTTON_CLICK
+  volume: 5.0
+  pitch: 0.0
+pickup-sound:
+  enabled: true
+  type: UI_BUTTON_CLICK
+  volume: 5.0
+  pitch: 0.0
+message:
+  title:
+    enabled: true
+    message: '&aВы получили'
+  subtitle:
+    enabled: true
+    message: '&e$%money%&a!'
+enabled-worlds:
+- world
+- world_nether
+- world_the_end
+disabled-regions:
+- region1
+- region2
+multipliers:
+  enabled: false
+  multipliers:
+    VIP: 2
+enable-worldguard: false

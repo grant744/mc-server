@@ -1,0 +1,25 @@
+cfg-version: 11
+message: '&c&l[!] &c>> &7Вы достигли края этого мира.'
+round-border: false
+debug-mode: false
+whoosh-effect: true
+portal-redirection: false
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: true
+dynmap-border-message: Граница мира.
+player-killed-bad-spawn: false
+deny-enderpearl: true
+fill-autosave-frequency: 30
+bypass-list-uuids: []
+fill-memory-tolerance: 500
+prevent-block-place: true
+prevent-mob-spawn: true
+worlds:
+  world:
+    x: 118.5
+    z: 166.5
+    radiusX: 20000
+    radiusZ: 20000
+    wrapping: false

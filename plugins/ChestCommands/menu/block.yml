@@ -1,0 +1,498 @@
+menu-settings:
+  name: '&0Блоки'
+  rows: 6
+  command: ''
+grass:
+  COMMAND: 'console:give {player} 2 8'
+  PRICE: 400
+  LORE:
+    - '&7Цена за покупку: &e$400'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '2, 8'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+dirt:
+  COMMAND: 'console:give {player} 3 64'
+  PRICE: 600
+  LORE:
+    - '&7Цена за покупку: &e$600'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '3, 64'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+gravel:
+  COMMAND: 'console:give {player} 13 64'
+  PRICE: 3625
+  LORE:
+    - '&7Цена за покупку: &e$3625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '13, 64'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+cobblestone:
+  COMMAND: 'console:give {player} 4 32'
+  PRICE: 950
+  LORE:
+    - '&7Цена за покупку: &e$950'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '4, 32'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+mossy_cobblestone:
+  COMMAND: 'console:give {player} 48 32'
+  PRICE: 1925
+  LORE:
+    - '&7Цена за покупку: &e$1925'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '48, 32'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+stone:
+  COMMAND: 'console:give {player} 1 32'
+  PRICE: 1025
+  LORE:
+    - '&7Цена за покупку: &e$1025'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '1, 32'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+stonee:
+  COMMAND: 'console:give {player} 1:1 32'
+  PRICE: 3100
+  LORE:
+    - '&7Цена за покупку: &e$3100'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '1:1, 32'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+stonn:
+  COMMAND: 'console:give {player} 1:3 32'
+  PRICE: 3100
+  LORE:
+    - '&7Цена за покупку: &e$3100'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '1:3, 32'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+stonnee:
+  COMMAND: 'console:give {player} 1:5 32'
+  PRICE: 3100
+  LORE:
+    - '&7Цена за покупку: &e$3100'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '1:3, 32'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+log:
+  COMMAND: 'console:give {player} 17 8'
+  PRICE: 475
+  LORE:
+    - '&7Цена за покупку: &e$475'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '17, 8'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+logg:
+  COMMAND: 'console:give {player} 17:1 8'
+  PRICE: 475
+  LORE:
+    - '&7Цена за покупку: &e$475'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '17:1, 8'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+loggg:
+  COMMAND: 'console:give {player} 17:2 8'
+  PRICE: 475
+  LORE:
+    - '&7Цена за покупку: &e$475'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '17:2, 8'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+logggg:
+  COMMAND: 'console:give {player} 17:3 8'
+  PRICE: 475
+  LORE:
+    - '&7Цена за покупку: &e$475'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '17:3, 8'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+log2:
+  COMMAND: 'console:give {player} 162 8'
+  PRICE: 475
+  LORE:
+    - '&7Цена за покупку: &e$475'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '162, 8'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+logg2:
+  COMMAND: 'console:give {player} 162:1 8'
+  PRICE: 475
+  LORE:
+    - '&7Цена за покупку: &e$475'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '162:1, 8'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+snow:
+  COMMAND: 'console:give {player} 80 16'
+  PRICE: 925
+  LORE:
+    - '&7Цена за покупку: &e$925'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '80, 16'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+ice:
+  COMMAND: 'console:give {player} 79 8'
+  PRICE: 625
+  LORE:
+    - '&7Цена за покупку: &e$625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '79, 8'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+packed_ice:
+  COMMAND: 'console:give {player} 174 8'
+  PRICE: 625
+  LORE:
+    - '&7Цена за покупку: &e$625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '174, 8'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+sponge:
+  COMMAND: 'console:give {player} 19 1'
+  PRICE: 1625
+  LORE:
+    - '&7Цена за покупку: &e$1625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '19, 1'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+sand:
+  COMMAND: 'console:give {player} 12 32'
+  PRICE: 1050
+  LORE:
+    - '&7Цена за покупку: &e$1050'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '12, 2'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+sandstone:
+  COMMAND: 'console:give {player} 24 8'
+  PRICE: 800
+  LORE:
+    - '&7Цена за покупку: &e$800'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '24, 8'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+sand2:
+  COMMAND: 'console:give {player} 12:1 32'
+  PRICE: 1050
+  LORE:
+    - '&7Цена за покупку: &e$1050'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '12:1, 32'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+sandstone2:
+  COMMAND: 'console:give {player} 179 8'
+  PRICE: 2000
+  LORE:
+    - '&7Цена за покупку: &e$2000'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '179, 8'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+glass:
+  COMMAND: 'console:give {player} 20 8'
+  PRICE: 325
+  LORE:
+    - '&7Цена за покупку: &e$325'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '20, 8'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 3
+clay:
+  COMMAND: 'console:give {player} 82 8'
+  PRICE: 650
+  LORE:
+    - '&7Цена за покупку: &e$650'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '82, 8'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+hardenedclay:
+  COMMAND: 'console:give {player} 172 8'
+  PRICE: 900
+  LORE:
+    - '&7Цена за покупку: &e$900'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '172, 8'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 3
+brick_block:
+  COMMAND: 'console:give {player} 45 32'
+  PRICE: 1050
+  LORE:
+    - '&7Цена за покупку: &e$1050'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '45, 32'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 3
+obsidian:
+  COMMAND: 'console:give {player} 49 1'
+  PRICE: 1050
+  LORE:
+    - '&7Цена за покупку: &e$1050'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '49'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 4
+netherrack:
+  COMMAND: 'console:give {player} 87 64'
+  PRICE: 3625
+  LORE:
+    - '&7Цена за покупку: &e$3625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '87, 64'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 4
+glowstone:
+  COMMAND: 'console:give {player} 89 16'
+  PRICE: 1640
+  LORE:
+    - '&7Цена за покупку: &e$1640'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '89, 16'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 4
+soul_sand:
+  COMMAND: 'console:give {player} 88 16'
+  PRICE: 1980
+  LORE:
+    - '&7Цена за покупку: &e$1980'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '88, 16'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 4
+nether_brick:
+  COMMAND: 'console:give {player} 112 16'
+  PRICE: 1960
+  LORE:
+    - '&7Цена за покупку: &e$1960'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '112, 16'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4
+end_stone:
+  COMMAND: 'console:give {player} 121 16'
+  PRICE: 1000
+  LORE:
+    - '&7Цена за покупку: &e$1000'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '121, 16'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 4
+prismarine:
+  COMMAND: 'console:give {player} 168 16'
+  PRICE: 11000
+  LORE:
+    - '&7Цена за покупку: &e$11000'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '168, 16'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 4
+bookshelf:
+  COMMAND: 'console:give {player} 47 4'
+  PRICE: 1280
+  LORE:
+    - '&7Цена за покупку: &e$1280'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '47, 4'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 4
+dirt2:
+  COMMAND: 'console:give {player} 3:2 8'
+  PRICE: 210
+  LORE:
+    - '&7Цена за покупку: &e$210'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '3:2, 8'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 4
+wool:
+  COMMAND: 'console:give {player} 35 1'
+  PRICE: 300
+  LORE:
+    - '&7Цена за покупку: &e$300'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '3:2, 8'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 5
+quartz_block:
+  COMMAND: 'console:give {player} 155 16'
+  PRICE: 2995
+  LORE:
+    - '&7Цена за покупку: &e$2995'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '155, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 5

@@ -1,0 +1,94 @@
+# -----------------------------------------
+# 
+# 		    Statistic config
+# 
+#            Name: rp-score
+#     	   Plugin: RogueParkour
+# 
+# -----------------------------------------
+# 
+#     Explanation of options:
+# 
+#     force-update: whether the plugin should update the data
+# 	of this statistic even if no sign is made for its leaderboard or not.
+# 
+#     enable-commas: whether to add commas to the format of the statistic (e.g. 9,000,000)
+# 
+#     update-interval: the time in seconds between updates of a statistic and leaderboard.
+#     There's no update-interval for the sub-statistics because these update when the main statistic updates.
+# 
+#     sign-lines: the lines on the sign of the leaderboard. Variables: {rank}, {name}, {amount}
+# 
+#     menu-lines: the lines on the skulls in the menu of the leaderboard
+# 
+#     online-only: whether the plugin should only save this statistic to the database for online players
+# 
+# -----------------------------------------
+force-update: false
+online-only: true
+enable-commas: true
+all-time:
+  sign-lines:
+  - '&lОчков на паркуре'
+  - '&0{amount} очков'
+  - '&r'
+  - '&1{name}'
+  update-interval: 30
+  menu-enabled: true
+  menu-command: /rpscores
+  menu-size: 90
+  menu-name: '&8Parkour scores Page {page}'
+  menu-lines:
+  - '&f&m----&f< &b{rank} &f>&m----'
+  - '&lPARKOUR SCORE'
+  - '&1{name}'
+  - '&0{amount} score'
+  - '&r'
+daily:
+  sign-lines:
+  - '&lPARKOUR SCORE'
+  - '&1{name}'
+  - '&0{amount} score'
+  - '&r'
+  menu-enabled: true
+  menu-command: /rpscoresdaily
+  menu-size: 90
+  menu-name: '&8Parkour scores Page {page} Daily'
+  menu-lines:
+  - '&f&m----&f< &b{rank} &f>&m----'
+  - '&lPARKOUR SCORE'
+  - '&1{name}'
+  - '&0{amount} score'
+  - '&r'
+weekly:
+  sign-lines:
+  - '&lPARKOUR SCORE'
+  - '&1{name}'
+  - '&0{amount} score'
+  - '&r'
+  menu-enabled: true
+  menu-command: /rpscoresweekly
+  menu-size: 90
+  menu-name: '&8Parkour scores Page {page} Weekly'
+  menu-lines:
+  - '&f&m----&f< &b{rank} &f>&m----'
+  - '&lPARKOUR SCORE'
+  - '&1{name}'
+  - '&0{amount} score'
+  - '&r'
+monthly:
+  sign-lines:
+  - '&lPARKOUR SCORE'
+  - '&1{name}'
+  - '&0{amount} score'
+  - '&r'
+  menu-enabled: true
+  menu-command: /rpscoresmonthly
+  menu-size: 90
+  menu-name: '&8Parkour scores Page {page} Monthly'
+  menu-lines:
+  - '&f&m----&f< &b{rank} &f>&m----'
+  - '&lPARKOUR SCORE'
+  - '&1{name}'
+  - '&0{amount} score'
+  - '&r'

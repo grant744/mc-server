@@ -1,0 +1,12 @@
+Unarmed:
+  enabled: true
+  multiplier: 1.25
+Rider:
+  enabled: true
+  multiplier: 1.25
+Sniper:
+  enabled: true
+  multiplier: 1.25
+LongRangeSniper:
+  enabled: true
+  multiplier: 1.25

@@ -1,0 +1,95 @@
+abilities:
+  triple_arrow_shot:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Тройной выстрел стрел
+  adrenaline_boost:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Адреналин
+  feather_weight:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Легкий как перышко
+  aggressive_mode:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Агресивный режим
+  arrow_tank_skin:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Защита от стрел
+  antidote:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Антидот
+  legendary_protection:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Легендраная защита
+  vampire_mode:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Режим вампира
+  mining_luck:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Шахтерская удача
+  woodchopping_luck:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Дровосек
+  pirate:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Пират
+  fire_resistance:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Защита от огня
+  explosive_arrow:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Взрывающиеся стрелы
+  sword_push:
+    # This name replaces all ability name variables, do not use colors! (&)
+    name: Откидывание от меча
+actions:
+  onPurchasing:
+    # Use "NONE" to cancel this event
+    chat-message: NONE
+    # Use "NONE" to cancel this event
+    actionbar: '&fВы успешно купили &a{ability_name} &fуровня &a{ability_level}'
+  # Use "NONE" to cancel this event
+  onDisabling: NONE
+  # Use "NONE" to cancel this event
+  onEnabling: NONE
+  # Use "NONE" to cancel this event
+  buyDisable: '&cВы не можете купить любой из этих способностей, если он у вас отключен!'
+  onUseCommands:
+    # Use "NONE" to cancel this event
+    pageNotAvailable: '&cЭта страница недоступна!'
+    # Use "NONE" to cancel this event
+    pageInvalidArgs: '&cНедопустимые аргументы, использовать /abilities open <number>'
+    # Use "NONE" to cancel this event
+    disabledInWorld: '&cВы не можете открыть меню в этом мире!'
+    # Use "NONE" to cancel this event
+    disableInRegion: '&cВы не можете открыть меню в этой зоне!'
+    # Use "NONE" to cancel this event
+    not_permission: '&cУ вас недостаточно прав, чтобы писать данную команду'
+    statsTitle: '&a{player_name} &fспособности игрока:'
+    statsDesc: '&a{ability_name}&f: &a{ability_bar} &fуровень &a{ability_level}'
+    rpgStatsTitle: '&a{player_name} &fролевая статистика:'
+    rpgStatsDesc: '&a{ability_name}&f: &a{ability_exp_bar} &a+{ability_exp_needed}
+      &fуровень'
+    rpgStatsDescBooster: '&fБустер: &a{rpg_booster}'
+  rpgSystem:
+    onLevelUp:
+      # Use "NONE" to cancel this event
+      title: '&eLEVEL UP!'
+      subtitle: '&a{ability_name} &fуровень &a{ability_level}'
+      # Use "NONE" to cancel this event
+      actionbar: '&a{ability_name} &fуровень &a{ability_level}'
+      # Use "NONE" to cancel this event
+      lastLevelReached_actionbar: '&a{ability_name} &fуровень &a{ability_max_level}
+        &fдобраться'
+    onExpUp:
+      # Use "NONE" to cancel this event
+      actionbar: '&a{ability_name} {ability_bar} &a+{ability_exp}'
+  abilities:
+    actionbar:
+      black_list:
+      - example.ability_id
+      # Use "NONE" to cancel this event
+      message: '&a{ability_name} &fбыл активирован'
+  mysql:
+    onKickPlayer: Server reloading...
+  item:
+    message: '&cПожалуйста, подождите 5 секунд, чтобы открыть меню способностей.'

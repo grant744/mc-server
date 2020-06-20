@@ -1,0 +1,72 @@
+#
+# Конфигурационный файл WorldEdit.
+#
+# О редактировании этого файла:
+# - НЕ ИСПОЛЬЗОВАТЬ TAB. Вы должны использовать пробелы иначе Bukkit будет жаловаться. Если
+#   вы используете редактор, такой как Notepad++ (рекомендуется для пользователей Windows), вы
+#   должны настроить его на "заменить TAB на пробелы." В Notepad++, это можно
+#   изменить в Опции > Настройки > Настройки табуляци.
+# - Не избавиляйтесь от отступов. Они смещены, поэтому некоторые записи
+#   в категориях (как "max-blocks-changed" находится в категории "limits")
+# - Если вы хотите проверить формат этого файла, прежде чем положить его
+#   в WorldEdit, вставьте его в http://yaml-online-parser.appspot.com/
+#   и посмотрите полученные "ОШИБКА:".
+# - Строки, начинающие с # называются комментариями, поэтому они игнорируются.
+#
+
+limits:
+    allow-extra-data-values: true
+    max-blocks-changed:
+        default: 65000
+        maximum: 65000
+    max-polygonal-points:
+        default: 1
+        maximum: 1000
+    max-radius: 20
+    max-super-pickaxe-size: 5
+    max-brush-radius: 5
+    butcher-radius:
+        default: 1
+        maximum: 20
+    disallowed-blocks: [6, 7, 8, 10, 11, 9, 6, 7, 14, 15, 16, 26, 27, 28, 29, 39, 31, 32, 33, 34, 36, 37, 38, 39, 40, 46, 50, 51, 56, 59, 69, 73, 74, 75, 76, 77, 81, 83, 23, 119, 52, 54, 122, 175, 137, 255, 210, 211, 166]
+
+use-inventory:
+    enable: false
+    allow-override: true
+    creative-mode-overrides: false
+
+logging:
+    log-commands: false
+    file: worldedit.log
+
+super-pickaxe:
+    drop-items: true
+    many-drop-items: false
+
+snapshots:
+    directory:
+
+navigation-wand:
+    item: 345
+    max-distance: 100
+
+scripting:
+    timeout: 3000
+    dir: craftscripts
+
+saving:
+    dir: schematics
+
+files:
+    allow-symbolic-links: false
+
+history:
+    size: 15
+    expiration: 10
+
+wand-item: 271
+shell-save-type:
+no-double-slash: false
+no-op-permissions: false
+debug: false
+show-help-on-first-use: false

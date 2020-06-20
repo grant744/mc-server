@@ -1,0 +1,44 @@
+# PlaceholderAPI
+# Version: 2.9.2
+# Created by: extended_clip
+# Contributors: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
+# Issues: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
+# Expansions: https://api.extendedclip.com/all/
+# Wiki: https://github.com/PlaceholderAPI/PlaceholderAPI/wiki
+# Discord: https://discordapp.com/invite/7sndK3q
+# No placeholders are provided with this plugin by default.
+# Download placeholders: /papi ecloud
+check_updates: false
+cloud_enabled: true
+cloud_enable_unverified_expansions: false
+auto_install_expansions: true
+boolean:
+  'true': да
+  'false': нет
+date_format: dd/MM/yy HH:mm:ss
+cloud_allow_unverified_expansions: false
+injector_enabled: true
+expansions:
+  listplayers:
+    name_color: '&f'
+    separator: '&a, '
+  vault:
+    formatting:
+      thousands: k
+      trillions: T
+      quadrillions: Q
+      billions: B
+      millions: M
+  pinger:
+    offline: '&cОффлайн'
+    check_interval: 30
+    online: '&aОнлайн'
+  bungee:
+    check_interval: 30
+  javascript:
+    engine: javascript
+  player:
+    ping_color:
+      medium: '&e'
+      high: '&a'
+      low: '&c'

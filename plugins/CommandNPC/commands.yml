@@ -1,0 +1,28 @@
+NPCS:
+  '1':
+    Commands:
+    - chestcommands open block~~false
+  '2':
+    Commands:
+    - chestcommands open eda~~false
+  '3':
+    Commands:
+    - chestcommands open draco~~false
+  '4':
+    Commands:
+    - chestcommands open fermer~~false
+  '5':
+    Commands:
+    - chestcommands open click~~false
+  '7':
+    Commands:
+    - chestcommands open block~~false
+  '8':
+    Commands:
+    - chestcommands open eda~~false
+  '9':
+    Commands:
+    - chestcommands open draco~~false
+  '10':
+    Commands:
+    - chestcommands open fermer~~false

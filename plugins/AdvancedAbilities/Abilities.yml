@@ -1,0 +1,653 @@
+abilities:
+  triple_arrow_shot:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    # This is the separation distance between arrows
+    separationDistance: 0.212
+    # Do you want arrow with effects?
+    particles: true
+    # Effect of the arrow
+    particles_type: LAVADRIP
+    # Remove the arrow when on the ground
+    removeArrowOnGround: true
+    level 1:
+      # Use chance from 0 to 100
+      chance: 5
+      # Use chance from 0 to 100
+      fire_chance: 1
+    level 2:
+      # Use chance from 0 to 100
+      chance: 10
+      # Use chance from 0 to 100
+      fire_chance: 3
+    level 3:
+      # Use chance from 0 to 100
+      chance: 15
+      # Use chance from 0 to 100
+      fire_chance: 5
+    level 4:
+      # Use chance from 0 to 100
+      chance: 20
+      # Use chance from 0 to 100
+      fire_chance: 9
+    level 5:
+      # Use chance from 0 to 100
+      chance: 25
+      # Use chance from 0 to 100
+      fire_chance: 12
+    level 6:
+      # Use chance from 0 to 100
+      chance: 30
+      # Use chance from 0 to 100
+      fire_chance: 15
+    level 7:
+      # Use chance from 0 to 100
+      chance: 35
+      # Use chance from 0 to 100
+      fire_chance: 23
+    level 8:
+      # Use chance from 0 to 100
+      chance: 40
+      # Use chance from 0 to 100
+      fire_chance: 30
+  adrenaline_boost:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    speedEffects:
+      # Level of the potion effect
+      level: 2
+      # Time of the potion effect (Time in seconds)
+      time: 5
+    # Do you want to make a quickly blindness when the ability will activated?
+    quicklyBlindness: true
+    level 1:
+      # Use chance from 0 to 100
+      chance: 4
+    level 2:
+      # Use chance from 0 to 100
+      chance: 8
+    level 3:
+      # Use chance from 0 to 100
+      chance: 12
+    level 4:
+      # Use chance from 0 to 100
+      chance: 16
+    level 5:
+      # Use chance from 0 to 100
+      chance: 20
+    level 6:
+      # Use chance from 0 to 100
+      chance: 24
+    level 7:
+      # Use chance from 0 to 100
+      chance: 28
+    level 8:
+      # Use chance from 0 to 100
+      chance: 32
+  feather_weight:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    # Do you want to make a effect on the ground when the ability will activated?
+    effectOnFall: true
+    level 1:
+      # Use chance from 0 to 100
+      chance: 10
+    level 2:
+      # Use chance from 0 to 100
+      chance: 20
+    level 3:
+      # Use chance from 0 to 100
+      chance: 30
+    level 4:
+      # Use chance from 0 to 100
+      chance: 40
+    level 5:
+      # Use chance from 0 to 100
+      chance: 50
+    level 6:
+      # Use chance from 0 to 100
+      chance: 60
+    level 7:
+      # Use chance from 0 to 100
+      chance: 70
+    level 8:
+      # Use chance from 0 to 100
+      chance: 80
+  aggressive_mode:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    # Ability can be activated if the player's health is less than this amount of hearts
+    hearts: 5.0
+    # Do you want to make a effect when the ability will activated?
+    effects: true
+    # Time on fire (Time in seconds)
+    fireTime: 2
+    # Add items with <ID> | You can use '*' ignore this
+    availableHandItems:
+    - '268'
+    - '267'
+    - '272'
+    - '276'
+    - '283'
+    - '258'
+    - '279'
+    - '271'
+    - '275'
+    level 1:
+      # Use chance from 0 to 100
+      chance: 7
+      # Use chance from 0 to 100
+      fire_chance: 5
+    level 2:
+      # Use chance from 0 to 100
+      chance: 14
+      # Use chance from 0 to 100
+      fire_chance: 7
+    level 3:
+      # Use chance from 0 to 100
+      chance: 21
+      # Use chance from 0 to 100
+      fire_chance: 9
+    level 4:
+      # Use chance from 0 to 100
+      chance: 28
+      # Use chance from 0 to 100
+      fire_chance: 12
+    level 5:
+      # Use chance from 0 to 100
+      chance: 35
+      # Use chance from 0 to 100
+      fire_chance: 16
+    level 6:
+      # Use chance from 0 to 100
+      chance: 42
+      # Use chance from 0 to 100
+      fire_chance: 18
+    level 7:
+      # Use chance from 0 to 100
+      chance: 49
+      # Use chance from 0 to 100
+      fire_chance: 20
+    level 8:
+      # Use chance from 0 to 100
+      chance: 56
+      # Use chance from 0 to 100
+      fire_chance: 23
+  arrow_tank_skin:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    level 1:
+      # Use chance from 0 to 100
+      chance: 5
+    level 2:
+      # Use chance from 0 to 100
+      chance: 10
+    level 3:
+      # Use chance from 0 to 100
+      chance: 15
+    level 4:
+      # Use chance from 0 to 100
+      chance: 20
+    level 5:
+      # Use chance from 0 to 100
+      chance: 25
+    level 6:
+      # Use chance from 0 to 100
+      chance: 30
+    level 7:
+      # Use chance from 0 to 100
+      chance: 35
+    level 8:
+      # Use chance from 0 to 100
+      chance: 40
+  antidote:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    level 1:
+      # Use percentage from 0 to 100, this is the percentage of damage
+      percentage: 10
+    level 2:
+      # Use percentage from 0 to 100, this is the percentage of damage
+      percentage: 15
+    level 3:
+      # Use percentage from 0 to 100, this is the percentage of damage
+      percentage: 22
+    level 4:
+      # Use percentage from 0 to 100, this is the percentage of damage
+      percentage: 25
+    level 5:
+      # Use percentage from 0 to 100, this is the percentage of damage
+      percentage: 27
+    level 6:
+      # Use percentage from 0 to 100, this is the percentage of damage
+      percentage: 30
+    level 7:
+      # Use percentage from 0 to 100, this is the percentage of damage
+      percentage: 32
+    level 8:
+      # Use percentage from 0 to 100, this is the percentage of damage
+      percentage: 36
+  legendary_protection:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    level 1:
+      # Use chance from 0 to 100
+      chance: 8
+      # Use percentage from 0 to 100, this is the percentage of damage
+      damage-percentage: 3
+    level 2:
+      # Use chance from 0 to 100
+      chance: 14
+      # Use percentage from 0 to 100, this is the percentage of damage
+      damage-percentage: 4
+    level 3:
+      # Use chance from 0 to 100
+      chance: 21
+      # Use percentage from 0 to 100, this is the percentage of damage
+      damage-percentage: 6
+    level 4:
+      # Use chance from 0 to 100
+      chance: 29
+      # Use percentage from 0 to 100, this is the percentage of damage
+      damage-percentage: 8
+    level 5:
+      # Use chance from 0 to 100
+      chance: 38
+      # Use percentage from 0 to 100, this is the percentage of damage
+      damage-percentage: 11
+    level 6:
+      # Use chance from 0 to 100
+      chance: 49
+      # Use percentage from 0 to 100, this is the percentage of damage
+      damage-percentage: 15
+    level 7:
+      # Use chance from 0 to 100
+      chance: 53
+      # Use percentage from 0 to 100, this is the percentage of damage
+      damage-percentage: 17
+    level 8:
+      # Use chance from 0 to 100
+      chance: 62
+      # Use percentage from 0 to 100, this is the percentage of damage
+      damage-percentage: 20
+  vampire_mode:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    # Do you want to make a effect when the ability will activated?
+    effects: true
+    level 1:
+      # Use chance from 0 to 100
+      chance: 22
+      health: 0.5
+    level 2:
+      # Use chance from 0 to 100
+      chance: 35
+      health: 1.0
+    level 3:
+      # Use chance from 0 to 100
+      chance: 42
+      health: 1.5
+    level 4:
+      # Use chance from 0 to 100
+      chance: 51
+      health: 2.2
+    level 5:
+      # Use chance from 0 to 100
+      chance: 60
+      health: 3.5
+    level 6:
+      # Use chance from 0 to 100
+      chance: 70
+      health: 4.5
+    level 7:
+      # Use chance from 0 to 100
+      chance: 17
+      health: 5.5
+    level 8:
+      # Use chance from 0 to 100
+      chance: 85
+      health: 6.0
+  mining_luck:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    # If this is "false", The item will added automatically in player's inventory
+    drop: true
+    # This is the name of the droped block
+    blockName: '&nLucky block'
+    # Add enchantments name in the list (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html)
+    enchantmentBlackList:
+    - SILK_TOUCH
+    # Add items with <ID> | You can use '*' ignore this
+    availableHandItems:
+    - '257'
+    - '270'
+    - '274'
+    - '278'
+    - '285'
+    # The arguments to add items are <BREAK_BLOCK>:<DROP_ITEM>
+    availableBlocks:
+    - 14:266
+    - 15:265
+    - 56:264
+    - 129:388
+    - 21:351
+    level 1:
+      # Use chance from 0 to 100
+      chance: 4
+    level 2:
+      # Use chance from 0 to 100
+      chance: 8
+    level 3:
+      # Use chance from 0 to 100
+      chance: 12
+    level 4:
+      # Use chance from 0 to 100
+      chance: 16
+    level 5:
+      # Use chance from 0 to 100
+      chance: 20
+    level 6:
+      # Use chance from 0 to 100
+      chance: 24
+    level 7:
+      # Use chance from 0 to 100
+      chance: 28
+    level 8:
+      # Use chance from 0 to 100
+      chance: 32
+  woodchopping_luck:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    # If this is "false", The item will added automatically in player's inventory
+    drop: true
+    # This is the name of the droped block
+    blockName: '&nLucky block'
+    # Add enchantments name in the list (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html)
+    enchantmentBlackList: []
+    # Add items with <ID> | You can use '*' ignore this
+    availableHandItems:
+    - '*'
+    level 1:
+      # Use chance from 0 to 100
+      chance: 4
+    level 2:
+      # Use chance from 0 to 100
+      chance: 8
+    level 3:
+      # Use chance from 0 to 100
+      chance: 12
+    level 4:
+      # Use chance from 0 to 100
+      chance: 16
+    level 5:
+      # Use chance from 0 to 100
+      chance: 20
+    level 6:
+      # Use chance from 0 to 100
+      chance: 24
+    level 7:
+      # Use chance from 0 to 100
+      chance: 28
+    level 8:
+      # Use chance from 0 to 100
+      chance: 32
+  pirate:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    # If this is "false", The item will added automatically in player's inventory
+    drop: true
+    # This is the name of the droped block
+    blockName: '&nTreasure item'
+    # Add items with <ID> | You can use '*' ignore this
+    availableHandItems:
+    - '*'
+    # Add items in list way, with these arguments <ID>:<DATA>:<AMOUNT>
+    treasureItems:
+    - '298:0:1'
+    - '299:0:1'
+    - '268:0:1'
+    - '5:0:4'
+    - '261:0:1'
+    level 1:
+      # Use chance from 0 to 100
+      chance: 4
+    level 2:
+      # Use chance from 0 to 100
+      chance: 6
+    level 3:
+      # Use chance from 0 to 100
+      chance: 8
+    level 4:
+      # Use chance from 0 to 100
+      chance: 10
+    level 5:
+      # Use chance from 0 to 100
+      chance: 12
+    level 6:
+      # Use chance from 0 to 100
+      chance: 14
+    level 7:
+      # Use chance from 0 to 100
+      chance: 16
+    level 8:
+      # Use chance from 0 to 100
+      chance: 18
+  fire_resistance:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    level 1:
+      # Use chance from 0 to 100
+      chance: 10
+    level 2:
+      # Use chance from 0 to 100
+      chance: 20
+    level 3:
+      # Use chance from 0 to 100
+      chance: 30
+    level 4:
+      # Use chance from 0 to 100
+      chance: 40
+    level 5:
+      # Use chance from 0 to 100
+      chance: 50
+    level 6:
+      # Use chance from 0 to 100
+      chance: 60
+    level 7:
+      # Use chance from 0 to 100
+      chance: 70
+    level 8:
+      # Use chance from 0 to 100
+      chance: 80
+  explosive_arrow:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    # Effect of arrow
+    effect: LAVA_POP
+    explosion:
+      # Do you want to make an explosion when ability will activated?
+      enable: true
+      # Do you want activate the explosion animation?
+      animation: true
+      # Do you want remove the fall blocks made by animation?, these blocks are remove when these are in the ground
+      removeBlockOnFall: false
+      # Explosion can't remove these blocks
+      block_blacklist:
+      - '7'
+      - '49'
+    level 1:
+      # Use chance from 0 to 100
+      chance: 7
+      # This is the explosion radius made by ability
+      explosion-radius: 1
+      # This is the push strength made by explosion
+      pushing-strength: 0.2
+    level 2:
+      # Use chance from 0 to 100
+      chance: 12
+      # This is the explosion radius made by ability
+      explosion-radius: 2
+      # This is the push strength made by explosion
+      pushing-strength: 1.7
+    level 3:
+      # Use chance from 0 to 100
+      chance: 16
+      # This is the explosion radius made by ability
+      explosion-radius: 2.5
+      # This is the push strength made by explosion
+      pushing-strength: 0.4
+    level 4:
+      # Use chance from 0 to 100
+      chance: 18
+      # This is the explosion radius made by ability
+      explosion-radius: 3
+      # This is the push strength made by explosion
+      pushing-strength: 0.7
+    level 5:
+      # Use chance from 0 to 100
+      chance: 22
+      # This is the explosion radius made by ability
+      explosion-radius: 3.3
+      # This is the push strength made by explosion
+      pushing-strength: 1.1
+    level 6:
+      # Use chance from 0 to 100
+      chance: 27
+      # This is the explosion radius made by ability
+      explosion-radius: 4
+      # This is the push strength made by explosion
+      pushing-strength: 1.3
+    level 7:
+      # Use chance from 0 to 100
+      chance: 35
+      # This is the explosion radius made by ability
+      explosion-radius: 4.2
+      # This is the push strength made by explosion
+      pushing-strength: 1.5
+    level 8:
+      # Use chance from 0 to 100
+      chance: 39
+      # This is the explosion radius made by ability
+      explosion-radius: 5
+      # This is the push strength made by explosion
+      pushing-strength: 1.7
+  sword_push:
+    # Enable or disable this ability
+    enable: true
+    # Add world name in the list to disable the ability in that world
+    disabledWorlds: []
+    # Add region name of WorldGuard (Plugin) in the list to disable the ability in that region
+    disabledRegions: []
+    # The max level allowed for this ability
+    maxAbilityLevel: 8
+    # The explosion maked by ability multiplies the normal velocity
+    velocityMultiplication: 2.1
+    # Add items with <ID> | You can use '*' ignore this
+    availableHandItems:
+    - '268'
+    - '267'
+    - '272'
+    - '276'
+    - '283'
+    level 1:
+      # Use chance from 0 to 100
+      chance: 2
+    level 2:
+      # Use chance from 0 to 100
+      chance: 5
+    level 3:
+      # Use chance from 0 to 100
+      chance: 9
+    level 4:
+      # Use chance from 0 to 100
+      chance: 12
+    level 5:
+      # Use chance from 0 to 100
+      chance: 15
+    level 6:
+      # Use chance from 0 to 100
+      chance: 22
+    level 7:
+      # Use chance from 0 to 100
+      chance: 27
+    level 8:
+      # Use chance from 0 to 100
+      chance: 35

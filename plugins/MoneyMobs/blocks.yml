@@ -1,0 +1,1422 @@
+ACACIA_DOOR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ACACIA_FENCE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ACACIA_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ACTIVATOR_RAIL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ANVIL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BEACON:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BED:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BEDROCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BEETROOT_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BIRCH_DOOR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BIRCH_FENCE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BIRCH_FENCE_GATE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BIRCH_WOOD_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BLACK_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BLACK_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BLUE_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BLUE_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BONE_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BOOKSHELF:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BREWING_STAND:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BRICK_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BROWN_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BROWN_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+BURNING_FURNACE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CACTUS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CAKE_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CARPET:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CARROT:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CAULDRON:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CHEST:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CHORUS_FLOWER:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CHORUS_PLANT:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+COAL_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+COAL_ORE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+COBBLESTONE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+COBBLESTONE_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+COBBLE_WALL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CONCRETE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CONCRETE_POWDER:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CROPS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CYAN_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+CYAN_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DARK_OAK_DOOR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DARK_OAK_FENCE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DARK_OAK_FENCE_GATE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DARK_OAK_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DAYLIGHT_DETECTOR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DAYLIGHT_DETECTOR_INVERTED:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DEAD_BUSH:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DETECTOR_RAIL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DIAMOND_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DIAMOND_ORE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DIODE_BLOCK_OFF:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DIODE_BLOCK_ON:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DIRT:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DISPENSER:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DOUBLE_PLANT:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DOUBLE_STEP:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DOUBLE_STONE_SLAB2:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DRAGON_EGG:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+DROPPER:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+EMERALD_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+EMERALD_ORE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ENCHANTMENT_TABLE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ENDER_CHEST:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ENDER_PORTAL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ENDER_PORTAL_FRAME:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ENDER_STONE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+END_BRICKS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+END_CRYSTAL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+END_ROD:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+FENCE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+FENCE_GATE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+FLOWER_POT:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+FROSTED_ICE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+FURNACE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GLASS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GLOWING_REDSTONE_ORE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GLOWSTONE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GOLD_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GOLD_ORE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GRASS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GRASS_PATH:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GRAVEL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GRAY_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GRAY_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GREEN_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+GREEN_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+HARD_CLAY:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+HAY_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+HOPPER:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+HUGE_MUSHROOM_1:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+HUGE_MUSHROOM_2:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ICE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+IRON_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+IRON_DOOR_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+IRON_FENCE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+IRON_ORE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+IRON_PLATE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+IRON_TRAPDOOR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+JACK_O_LANTERN:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+JUKEBOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+JUNGLE_DOOR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+JUNGLE_FENCE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+JUNGLE_FENCE_GATE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+JUNGLE_WOOD_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LADDER:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LAPIS_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LAPIS_ORE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LEAVES:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LEAVES_2:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LEVER:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LIGHT_BLUE_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LIGHT_BLUE_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LIME_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LIME_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LOG:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LOG_2:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+LONG_GRASS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+MAGENTA_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+MAGENTA_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+MAGMA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+MELON_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+MOB_SPAWNER:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+MOSSY_COBBLESTONE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+MYCEL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+NETHERRACK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+NETHER_BRICK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+NETHER_BRICK_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+NETHER_FENCE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+NETHER_STALK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+NETHER_WART_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+NOTE_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+OBSIDIAN:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ORANGE_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+ORANGE_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PACKED_ICE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PAINTING:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PAPER:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PINK_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PINK_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PISTON_BASE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PISTON_MOVING_PIECE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PISTON_STICKY_BASE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PORTAL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+POTATO:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+POWERED_RAIL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PRISMARINE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PRISMARINE_CRYSTALS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PUMPKIN:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PUMPKIN_STEM:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PURPLE_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PURPLE_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PURPUR_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PURPUR_DOUBLE_SLAB:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PURPUR_PILLAR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PURPUR_SLAB:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+PURPUR_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+QUARTZ_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+QUARTZ_ORE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+QUARTZ_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+RAILS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+REDSTONE_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+REDSTONE_COMPARATOR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+REDSTONE_COMPARATOR_OFF:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+REDSTONE_COMPARATOR_ON:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+REDSTONE_LAMP_OFF:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+REDSTONE_LAMP_ON:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+REDSTONE_ORE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+REDSTONE_TORCH_OFF:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+REDSTONE_TORCH_ON:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+REDSTONE_WIRE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+RED_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+RED_MUSHROOM:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+RED_NETHER_BRICK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+RED_ROSE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+RED_SANDSTONE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+RED_SANDSTONE_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+RED_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SAND:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SANDSTONE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SANDSTONE_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SAPLING:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SEA_LANTERN:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SIGN:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SIGN_POST:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SILVER_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SILVER_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SKULL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SLIME_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SMOOTH_BRICK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SMOOTH_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SNOW_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SOIL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SOUL_SAND:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SPECKLED_MELON:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SPONGE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SPRUCE_DOOR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SPRUCE_FENCE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SPRUCE_FENCE_GATE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SPRUCE_WOOD_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+STAINED_CLAY:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+STAINED_GLASS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+STAINED_GLASS_PANE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+STEP:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+STONE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+STONE_PLATE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+STONE_SLAB2:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+STRUCTURE_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+SUGAR_CANE_BLOCK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+THIN_GLASS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+TNT:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+TORCH:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+TRAPPED_CHEST:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+TRAP_DOOR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+TRIPWIRE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+TRIPWIRE_HOOK:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+VINE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WALL_SIGN:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WATER_LILY:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WEB:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WHEAT:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WHITE_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WHITE_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WOOD:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WOODEN_DOOR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WOOD_BUTTON:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WOOD_DOOR:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WOOD_DOUBLE_STEP:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WOOD_PLATE:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WOOD_STAIRS:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WOOD_STEP:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WOOL:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+WORKBENCH:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+YELLOW_FLOWER:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+YELLOW_GLAZED_TERRACOTTA:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5
+YELLOW_SHULKER_BOX:
+  enabled: false
+  chance: 100
+  drop:
+    min: 2
+    max: 5

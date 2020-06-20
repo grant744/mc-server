@@ -1,0 +1,48 @@
+#
+# Конфигурационный файл WEPIF
+#
+# Этот файл обрабатывает конфигурацию разрешений для каждого плагина, используя WEPIF
+#
+# О редактировании этого файла:
+# - НЕ ИСПОЛЬЗОВАТЬ TAB. Вы должны использовать пробелы иначе Bukkit будет жаловаться. Если
+#   вы используете редактор, такой как Notepad++ (рекомендуется для пользователей Windows), вы
+#   должны настроить его на "заменить TAB на пробелы." В Notepad++, это можно
+#   изменить в Опции > Настройки > Настройки табуляци.
+# - Не избавиляйтесь от отступов. Они смещены, поэтому некоторые записи
+#   в категориях (как "enforce-single-session" находится в категории "protection")
+# - Если вы хотите проверить формат этого файла, прежде чем положить его
+#   в WEPIF, вставьте его в http://yaml-online-parser.appspot.com/
+#   и посмотрите полученные "ОШИБКА:".
+# - Строки, начинающие с # называются комментариями, поэтому они игнорируются.
+#
+# О разрешениях конфигурации
+# - Смотрите http://wiki.sk89q.com/wiki/WorldEdit/Permissions/Bukkit
+# - Теперь с поддержкой мультимиров (смотрите пример)
+
+
+ignore-nijiperms-bridges: true
+resolvers:
+    enabled:
+    - PluginPermissionsResolver
+    - PermissionsExResolver
+    - bPermissionsResolver
+    - GroupManagerResolver
+    - NijiPermissionsResolver
+    - DinnerPermsResolver
+    - FlatFilePermissionsResolver
+permissions:
+    groups:
+        default:
+            permissions:
+            - worldedit.reload
+            - worldedit.selection
+            - worlds.creative.worldedit.region
+        admins:
+            permissions:
+            - '*'
+    users:
+        sk89q:
+            permissions:
+            - worldedit
+            groups:
+            - admins

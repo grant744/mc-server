@@ -1,0 +1,212 @@
+menu-settings:
+  name: '&0Фермерство'
+  rows: 6
+  command: ''
+wheat_seeds:
+  COMMAND: 'console:give {player} 295 16'
+  PRICE: 350
+  LORE:
+    - '&7Цена за покупку: &e$350'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '295, 16'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+pumpkin_seeds:
+  COMMAND: 'console:give {player} 361 16'
+  PRICE: 350
+  LORE:
+    - '&7Цена за покупку: &e$350'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '361, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+melon_seeds:
+  COMMAND: 'console:give {player} 362 16'
+  PRICE: 350
+  LORE:
+    - '&7Цена за покупку: &e$350'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '362, 16'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+dye:
+  COMMAND: 'console:give {player} 351:3 8'
+  PRICE: 625
+  LORE:
+    - '&7Цена за покупку: &e$625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '351:3, 8'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+nether_wart:
+  COMMAND: 'console:give {player} 372 1'
+  PRICE: 275
+  LORE:
+    - '&7Цена за покупку: &e$275'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '372, 1'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+reeds:
+  COMMAND: 'console:give {player} 338 16'
+  PRICE: 450
+  LORE:
+    - '&7Цена за покупку: &e$450'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '338, 16'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+wheat:
+  COMMAND: 'console:give {player} 296 16'
+  PRICE: 350
+  LORE:
+    - '&7Цена за покупку: &e$350'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '295, 16'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+cactus:
+  COMMAND: 'console:give {player} 81 16'
+  PRICE: 1625
+  LORE:
+    - '&7Цена за покупку: &e$1625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '81, 16'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+sapling:
+  COMMAND: 'console:give {player} 6 16'
+  PRICE: 400
+  LORE:
+    - '&7Цена за покупку: &e$400'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '6, 16'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+saplingg:
+  COMMAND: 'console:give {player} 6:1 16'
+  PRICE: 400
+  LORE:
+    - '&7Цена за покупку: &e$400'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '6:1, 16'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+saplinggg:
+  COMMAND: 'console:give {player} 6:2 16'
+  PRICE: 400
+  LORE:
+    - '&7Цена за покупку: &e$400'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '6:2, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+saplingggg:
+  COMMAND: 'console:give {player} 6:3 16'
+  PRICE: 400
+  LORE:
+    - '&7Цена за покупку: &e$400'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '6:3, 16'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+saplinggggg:
+  COMMAND: 'console:give {player} 6:4 16'
+  PRICE: 400
+  LORE:
+    - '&7Цена за покупку: &e$400'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '6:4, 16'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+sapli:
+  COMMAND: 'console:give {player} 6:5 16'
+  PRICE: 400
+  LORE:
+    - '&7Цена за покупку: &e$400'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '6:5, 16'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+brown_mushroom:
+  COMMAND: 'console:give {player} 39 1'
+  PRICE: 625
+  LORE:
+    - '&7Цена за покупку: &e$625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '39, 1'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+red_mushroom:
+  COMMAND: 'console:give {player} 40 1'
+  PRICE: 625
+  LORE:
+    - '&7Цена за покупку: &e$625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '40, 1'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2

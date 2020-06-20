@@ -1,0 +1,418 @@
+barSettings:
+  # This is the size of "exp_bar"
+  size: 50
+  # This is the bar symbol
+  symbol: '|'
+player-boosters:
+  example:
+    # Player needs this permission to get this booster
+    permission: example.permission
+    # Player with this permission gets EXP * BOOSTER, Example: 5*2
+    multiplier: 2
+rewards-events:
+  # Variables: [EXP, ABILITY, ITEM_HAND, HELMET, CHESTPLATE, LEGGINGS, BOOTS] 
+  # Event variables: [BLOCK_BREAK (breakBlock event), MIN_DISTANCE (hitMobByArrowShot & hitPlayerByArrowShot), MIN_DAMAGE(Damage events)]
+  killPlayer:
+  - EXP=7.8:ABILITY=aggressive_mode:ITEM_HAND=276
+  - EXP=6.5:ABILITY=aggressive_mode:ITEM_HAND=267
+  - EXP=5.0:ABILITY=aggressive_mode:ITEM_HAND=272
+  - EXP=1.2:ABILITY=aggressive_mode
+  breakBlock:
+  - EXP=7.5:ABILITY=mining_luck:BREAK_BLOCK=14
+  - EXP=6.8:ABILITY=mining_luck:BREAK_BLOCK=56:ITEM_HAND=257
+  - EXP=4.5:ABILITY=mining_luck:BREAK_BLOCK=15
+  - EXP=2.0:ABILITY=woodchopping_luck:BREAK_BLOCK=17
+  hitMobByArrowShot:
+  - EXP=15.5:ABILITY=triple_arrow_shot:MIN_DISTANCE=10:MIN_DAMAGE=9
+  - EXP=11.5:ABILITY=triple_arrow_shot:MIN_DISTANCE=8
+  - EXP=9.0:ABILITY=triple_arrow_shot:MIN_DISTANCE=5
+  - EXP=2.0:ABILITY=triple_arrow_shot:MIN_DISTANCE=1
+  hitPlayerByArrowShot:
+  - EXP=20.5:ABILITY=triple_arrow_shot:MIN_DISTANCE=10:MIN_DAMAGE=9
+  - EXP=16.9:ABILITY=triple_arrow_shot:MIN_DISTANCE=10
+  - EXP=10.0:ABILITY=triple_arrow_shot:MIN_DISTANCE=4
+  - EXP=5.0:ABILITY=triple_arrow_shot:MIN_DISTANCE=1
+  fallDamage:
+  - EXP=6.3:ABILITY=feather_weight:MIN_DAMAGE=5
+  - EXP=3.0:ABILITY=feather_weight:MIN_DAMAGE=2
+  - EXP=2.5:ABILITY=adrenaline_boost
+  tickFireDamage:
+  - EXP=3.0:ABILITY=fire_resistance:MIN_DAMAGE=2
+  - EXP=1.0:ABILITY=fire_resistance
+  explosionDamage:
+  - EXP=10.5:ABILITY=fire_resistance:MIN_DAMAGE=10
+  - EXP=9.8:ABILITY=fire_resistance:MIN_DAMAGE=8
+  - EXP=5.4:ABILITY=fire_resistance:MIN_DAMAGE=6
+  - EXP=2.2:ABILITY=fire_resistance:MIN_DAMAGE=4
+  - EXP=1.0:ABILITY=fire_resistance
+  throwPotion: []
+  blockingDamage:
+  - EXP=1.7:ABILITY=arrow_tank_skin:MIN_DAMAGE=5
+  - EXP=1.2:ABILITY=arrow_tank_skin:MIN_DAMAGE=1
+  - EXP=0.5:ABILITY=arrow_tank_skin
+  blockingProjectile:
+  - EXP=2.2:ABILITY=arrow_tank_skin:PROJECTILE=Arrow:MIN_DAMAGE=4
+  - EXP=1.8:ABILITY=arrow_tank_skin:PROJECTILE=Arrow:MIN_DAMAGE=2
+  - EXP=0.1:ABILITY=arrow_tank_skin:PROJECTILE=Snowball
+  killMob:
+  - EXP=36.5:ABILITY=vampire_mode:MOB_TYPE=WITHER
+  - EXP=2.8:ABILITY=vampire_mode:MOB_TYPE=CREEPER
+  - EXP=2.2:ABILITY=vampire_mode:MOB_TYPE=ZOMBIE
+  - EXP=4.2:ABILITY=sword_push:MOB_TYPE=SKELETON
+  # Add disabled worlds in list way with the corrects arguments, for example: WORLD=ExampleWorld:ABILITY=vampire_mode
+  # Variables: [WORLD, EVENT_TYPE, ABILITY]
+  disabledWorlds: []
+  # Add disabled regions in list way with the corrects arguments, for example: REGION=ExampleRegion
+  # Variables: [REGION, EVENT_TYPE, ABILITY]
+  disabledRegions: []
+abilities:
+  triple_arrow_shot:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  adrenaline_boost:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  feather_weight:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  aggressive_mode:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  arrow_tank_skin:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  antidote:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  legendary_protection:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  vampire_mode:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  mining_luck:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  woodchopping_luck:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  pirate:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  fire_resistance:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  explosive_arrow:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000
+  sword_push:
+    level 1:
+      # Player needs to get more exp than this to level up
+      requirementExp: 250
+    level 2:
+      # Player needs to get more exp than this to level up
+      requirementExp: 500
+    level 3:
+      # Player needs to get more exp than this to level up
+      requirementExp: 1000
+    level 4:
+      # Player needs to get more exp than this to level up
+      requirementExp: 2500
+    level 5:
+      # Player needs to get more exp than this to level up
+      requirementExp: 5000
+    level 6:
+      # Player needs to get more exp than this to level up
+      requirementExp: 10000
+    level 7:
+      # Player needs to get more exp than this to level up
+      requirementExp: 12500
+    level 8:
+      # Player needs to get more exp than this to level up
+      requirementExp: 15000

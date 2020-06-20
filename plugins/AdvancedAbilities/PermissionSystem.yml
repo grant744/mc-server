@@ -1,0 +1,3 @@
+settings:
+  # WARNING: If you is this system, change the command to your Permission (Plugin), Default is PermissionEx (Plugin)
+  addPermissionCommand: pex user {player} add {permission}

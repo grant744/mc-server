@@ -1,0 +1,111 @@
+Items:
+  SuperPickAxe:
+    # (REQUIRED) Item price in Jobs Points
+    Price: 10000.0
+    Icon:
+      # (REQUIRED) Icon item id
+      Id: 278
+      # (Optional - Default: 0) Icon item data value
+      Data: 0
+      # (Optional - Default: 1) Icon item amount
+      Amount: 1
+      # (Optional) Icon name. Supports usual color codes
+      Name: "&eЛучшая кирка в мире!"
+      # (Optional) Icon lore. Supports usual color codes
+      Lore:
+      - "&6Эффекивность V"
+      - "&6Неразрушимость III"
+      - "&eИ одно вкусное яблоко!"
+      # (Optional - default: false) Hides icon if player dont have permission to get this item
+      HideWithoutPermission: true
+    # (Optional) List of permissions required to buy this item
+    RequiredPermission:
+    - jobs.item.pickaxe
+    # (Optional) List of jobs and levels to buy this item
+    RequiredJobLevels:
+    - Miner-50
+    - Woodcutter-10
+    # (Optional) Total level from all jobs player currently in
+    RequiredTotalLevels: 100
+    # (Optional) Performs comands on item purchase
+    # use 'msg ' at start of command to send nice message to player
+    # all other commands will be performed normaly as they would be executed from console
+    # use [player] variable to include buyers name
+    PerformCommands:
+    - "msg &eСпасибо за покупку этой супер кирки!"
+    # (Optional) Gives items by defined criteria
+    GiveItems:
+      # Can be any word
+      PickAxe:
+        # (Required) Item id
+        Id: 278
+        # (Optional - Default: 0) Item data
+        Data: 0
+        # (Optional - Default: 1) Item amount
+        Amount: 1
+        # (Optional) Item name
+        Name: "&eСупер кирка"
+        # (Optional) Item lore
+        Lore:
+        - "&eЛучшая в мире"
+        # (Optional) Item enchants
+        Enchants:
+        - DIG_SPEED=5
+        - DURABILITY=3
+      # Can be any word
+      Apple:
+        # (Required) Item id
+        Id: 260
+  WoodenShovel:
+    Price: 100.0
+    Icon:
+      Id: 269
+      Name: "&eДеревянная лопата"
+      HideWithoutPermission: true
+    RequiredPermission:
+    - jobs.item.shovel
+    RequiredJobLevels:
+    - Digger-5
+    PerformCommands:
+    - "msg &eСпасибо [player] за покупки этой лопаты!"
+    - "give [player] 269 1"
+  LureEnchantBook:
+    Price: 100.0
+    Icon:
+      Id: 403
+      Name: "&eЗачарованная книга"
+      Lore:
+      - "&eСодержит Приманку 3"
+      HideWithoutPermission: true
+    RequiredPermission:
+    - jobs.item.LureBook
+    RequiredJobLevels:
+    - Fisherman-100
+    PerformCommands:
+    - "msg &eСпасибо [player] за покупки этой книги!"
+    # (Optional) Gives items by defined criteria
+    GiveItems:
+      # Can be any word
+      Book:
+        # (Required) Item id
+        Id: 403
+        # (Optional) Item enchants
+        Enchants:
+        - LURE=3
+  Elytra:
+    Price: 100000.0
+    Icon:
+      Id: 443
+      Name: "&eКрылья ангела"
+      HideWithoutPermission: true
+    RequiredPermission:
+    - jobs.item.elytra
+    PerformCommands:
+    - "msg &eСпасибо [player] за покупки этих Крыльев ангела!"
+    # (Optional) Gives items by defined criteria
+    GiveItems:
+      # Can be any word
+      Elytra:
+        # (Required) Item id
+        Id: 443
+        

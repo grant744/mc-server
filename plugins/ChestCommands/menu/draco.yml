@@ -1,0 +1,108 @@
+menu-settings:
+  name: '&0Руды'
+  rows: 6
+  command: ''
+coal:
+  COMMAND: 'console:give {player} 263 16'
+  PRICE: 650
+  LORE:
+    - '&7Цена за покупку: &e$650'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '263, 16'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+redstone:
+  COMMAND: 'console:give {player} 331 16'
+  PRICE: 750
+  LORE:
+    - '&7Цена за покупку: &e$750'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '331, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+dye:
+  COMMAND: 'console:give {player} 351:4 8'
+  PRICE: 1925
+  LORE:
+    - '&7Цена за покупку: &e$1925'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '351:4, 8'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+iron_ignot:
+  COMMAND: 'console:give {player} 265 16'
+  PRICE: 850
+  LORE:
+    - '&7Цена за покупку: &e$850'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '265, 16'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+gold_ignot:
+  COMMAND: 'console:give {player} 266 4'
+  PRICE: 600
+  LORE:
+    - '&7Цена за покупку: &e$600'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '266, 4'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+diamond:
+  COMMAND: 'console:give {player} 264 1'
+  PRICE: 1625
+  LORE:
+    - '&7Цена за покупку: &e$1625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '264'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+emerlad:
+  COMMAND: 'console:give {player} 388 1'
+  PRICE: 850
+  LORE:
+    - '&7Цена за покупку: &e$850'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '388'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+quartz:
+  COMMAND: 'console:give {player} 406 8'
+  PRICE: 1050
+  LORE:
+    - '&7Цена за покупку: &e$1050'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '406, 8'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1

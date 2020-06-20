@@ -1,0 +1,12 @@
+SetTags: true #устанавливать ли теги игрокам при входе (плагин может работать как API)
+DefaultGroup: Игрок #дефолтная группа
+Positions: #позиции групп (по алфавиту)
+  owner: A
+  admin: B
+  Warden: C
+  Legend: D
+  Titan: E
+  Ruby: F
+  Crystal: O
+  Iron: J
+  Игрок: Z

@@ -1,0 +1,225 @@
+menu-settings:
+  name: '&0Еда'
+  rows: 6
+  command: ''
+melon:
+  COMMAND: 'console:give {player} 360 32'
+  PRICE: 350
+  LORE:
+    - '&7Цена за покупку: &e$350'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '360, 32'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+apple:
+  COMMAND: 'console:give {player} 260 16'
+  PRICE: 350
+  LORE:
+    - '&7Цена за покупку: &e$350'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '260, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+carrot:
+  COMMAND: 'console:give {player} 391 32'
+  PRICE: 350
+  LORE:
+    - '&7Цена за покупку: &e$350'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '391, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+pumpkin_pie:
+  COMMAND: 'console:give {player} 400 8'
+  PRICE: 950
+  LORE:
+    - '&7Цена за покупку: &e$950'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '400, 8'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+bread:
+  COMMAND: 'console:give {player} 297 8'
+  PRICE: 390
+  LORE:
+    - '&7Цена за покупку: &e$390'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '297, 8'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+cooked_chicken:
+  COMMAND: 'console:give {player} 366 8'
+  PRICE: 304
+  LORE:
+    - '&7Цена за покупку: &e$310'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '366, 8'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+baked_potato:
+  COMMAND: 'console:give {player} 393 8'
+  PRICE: 310
+  LORE:
+    - '&7Цена за покупку: &e$310'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '393, 8'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+mushroom_stew:
+  COMMAND: 'console:give {player} 282 8'
+  PRICE: 625
+  LORE:
+    - '&7Цена за покупку: &e$625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '282, 8'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+cooked_fish:
+  COMMAND: 'console:give {player} 350 8'
+  PRICE: 350
+  LORE:
+    - '&7Цена за покупку: &e$350'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '350, 8'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+cookedd_fish:
+  COMMAND: 'console:give {player} 350:1 8'
+  PRICE: 900
+  LORE:
+    - '&7Цена за покупку: &e$900'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '350:1, 8'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+cooked_rabbit:
+  COMMAND: 'console:give {player} 412 8'
+  PRICE: 350
+  LORE:
+    - '&7Цена за покупку: &e$350'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '412, 8'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+rabbit_stew:
+  COMMAND: 'console:give {player} 413 1'
+  PRICE: 50
+  LORE:
+    - '&7Цена за покупку: &e$50'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '413'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+cooked_porkchop:
+  COMMAND: 'console:give {player} 320 8'
+  PRICE: 625
+  LORE:
+    - '&7Цена за покупку: &e$625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '320, 8'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+cooked_beef:
+  COMMAND: 'console:give {player} 364 8'
+  PRICE: 625
+  LORE:
+    - '&7Цена за покупку: &e$625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '364, 8'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+cooked_mutton:
+  COMMAND: 'console:give {player} 424 8'
+  PRICE: 625
+  LORE:
+    - '&7Цена за покупку: &e$625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '424, 8'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+cookie:
+  COMMAND: 'console:give {player} 357 10'
+  PRICE: 625
+  LORE:
+    - '&7Цена за покупку: &e$625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '357, 10'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+cake:
+  COMMAND: 'console:give {player} 354 1'
+  PRICE: 625
+  LORE:
+    - '&7Цена за покупку: &e$625'
+    - '&7Ваш баланс: &a{money}'
+    - ''
+    - '&7§oНажмите правой кнопкой'
+    - '&7§oмышки, чтобы купить.'
+  ID: '354, 1'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2

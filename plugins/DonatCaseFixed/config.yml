@@ -1,0 +1,47 @@
+
+#========================================#
+# Плагин слит группой UncleSliv          #
+# Наша группа: https://vk.com/uncle.sliv #
+# Наш сервер: vk.com/empty_network       #
+#========================================#
+
+DonatCase:
+  TypeSave: config
+  MySql:
+    Host: 'jdbc:mysql://localhost:3306/Server'
+    User: root
+    Password:
+  Languages: ru
+  LevelGroup: true
+  LevelsGroup:
+    admin: 3
+    premium: 2
+    vip: 1
+    player: 0
+  Title:
+    Title: '%group'
+    SubTitle: ''
+  Cases:
+    Test:
+      Title: '&c&lSUPER DONATCASE'
+      Commands:
+       - pex user %player group set %group
+      Items:
+        Admin:
+          Group: admin
+          Chance: 20
+          Item:
+            ID: 35;14
+            DisplayName: '&cAdmin'
+        Premium:
+          Group: premium
+          Chance: 40
+          Item:
+            ID: 35;6
+            DisplayName: '&bPremium'
+        VIP:
+          Group: vip
+          Chance: 40
+          Item:
+            ID: 35;1
+            DisplayName: '&6VIP'

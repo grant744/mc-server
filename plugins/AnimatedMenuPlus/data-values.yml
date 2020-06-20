@@ -1,0 +1,32 @@
+#Data values config file
+#In the file should be data values for all current (1.11) data values for each item/block
+#The list at each type contains ordered entries; The first one is for data value 0, the second for 1 etc.
+#Stone for example: 'normal' is data value 0, 'granite' data value 1, 'polished-granite' 2 etc.
+#Some entries have multiple names; those are separated using a semicolon (;).
+
+Stone: [ normal, granite, polished-granite, diorite, polished-diorite, andesite, polished-andesite ]
+Dirt: [ normal, coarse, podzol ]
+Planks;Sapling;Double-Wooden-Slab;Wooden-Slab: [ oak, spruce, birch, jungle, acacia, dark-oak ]
+Sand: [ white, red ]
+Log;Leaves: [ oak, spruce, birch, jungle ]
+Sponge: [ dry, wet ]
+Sandstone: [ normal, chiseled, smooth ]
+Tallgrass: [ dead-shrub, grass, fern ]
+Wool;Stained-Glass;Stained-Hardened-Clay;Stained-Glass-Pane;Carpet: [ white, orange, magenta, light-blue, yellow, lime, pink, gray, light-gray, cyan, purple, blue, brown, green, red, black ]
+Red-Flower: [ poppy, blue-orchid, allium, azure-bluet, red-tulip, orange-tulip, white-tulip, pink-tulip, oxeye-daisy ]
+Double-Stone-Slab;Stone-Slab: [ stone, sandstone, wood, cobblestone, brick, stone-brick, nether-brick, quartz ]
+Monster-Egg: [ stone, cobblestone, stone-brick, mossy-stone-brick, cracked-stone-brick, chiseled-stone-brick ]
+Stonebrick: [ normal, mossy, cracked, chiseled ]
+Cobblestone-Wall: [ normal, mossy ]
+Quartz-Block: [ normal, chiseled, pillar ]
+Leaves2;Log2: [ acacia, dark-oak ]
+Prismarine: [ normal, bricks, dark ]
+Double-Plant: [ liliac, double-tallgrass, large-fern, rose-bush, peony ]
+Red-Sandstone: [ normal, chiseled, smooth ]
+#Items
+Coal: [ charcoal ]
+Golden-Apple: [ enchanted ]
+Fish: [ normal, salmon, clownfish, pufferfish ]
+Cooked-Fish: [ normal, salmon ]
+Dye: [ ink-sack;black, rose-red;red, cactus-green;green, coco-beans;brown, lapis-lazuli;blue, purple, cyan, light-gray, gray, pink, lime, dandelion, light-blue, magenta, orange ]
+Skull: [ skeleton, wither-skeleton, zombie, human;player, creeper, dragon ]

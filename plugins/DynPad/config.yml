@@ -1,0 +1,20 @@
+cooldown: 10
+velocity:
+  iron:
+    value: 0.0
+    no_fall_damage: true
+  gold:
+    value: 1.0
+    no_fall_damage: true
+  diamond:
+    value: 2.0
+    no_fall_damage: true
+  emerald:
+    value: 3.0
+    no_fall_damage: false
+  lapis:
+    value: 0.0
+    no_fall_damage: false
+  redstone:
+    value: 0.0
+    no_fall_damage: false

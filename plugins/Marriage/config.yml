@@ -1,0 +1,60 @@
+requestExpiry: 60
+enable-priests: false
+# Allow a player's gender to be changed multiple times.
+enable-gender-change: true
+cooldown:
+  kiss: 2
+features:
+  # Show gender colors in marry list command.
+  genders-in-list: true
+# Chat, set the format of private messages and in-chat status.
+# Supported tags for chat: {partner}, for pm: {name}, {message}, chat spy: {sender}, {receiver}, {message}
+# Icons are always available: {icon:heart}, {icon:male}, {icon:female}, {icon:genderless}
+# If you use a custom chat plugin, put {marriage_status} in the format and set force-status-format & force-gender-format to false
+# To show genders in chat, put {marriage_gender} in chat plugin format
+chat:
+  pm-format: '&4{icon:heart}&c{name}&4{icon:heart} &7{message}'
+  status-format: '&4&l<3 &r'
+  unmarried-status-format: ''
+  spy-format: '&c[CHAT SPY] &7{sender} -> {receiver}&f: {message}'
+  force-status-format: false
+  force-gender-format: true
+  male-prefix: '&b{icon:male} &r'
+  female-prefix: '&d{icon:female} &r'
+  genderless-prefix: ''
+# Kissing, display hearts when 2 married players kiss eachother.
+# The amount of hearts is a random number between min and max.
+kisses:
+  enabled: true
+  amount-min: 5
+  amount-max: 10
+# Boost EXP gained when married players are near each other.
+exp-boost:
+  enabled: true
+  distance: 50.0
+  multiplier: 2.0
+  # Announces amount of bonus EXP gaines, set to false to disable.
+  announce: true
+support:
+  # Automatically trust married players to each others plot.
+  plotsquared-auto-trust: true
+economy:
+  # Economy settings, uses Vault.
+  # enable 'show-on-help' to show prices in help command.
+  enabled: false
+  show-on-help: true
+  marriage-price: 100.0
+  teleport-price: 0.0
+  sethome-price: 0.0
+  heal-price: 0.0
+  divorce-price: 0.0
+# Updater settings, checks for updates. We recommend to keep this enabled.
+# Available channels: RELEASE, BETA, ALPHA
+updater:
+  enabled: false
+  changelog: false
+  channel: BETA
+# List of commands that no one can use, for instance 'gift'.
+disabled-commands:
+- command1
+- command2

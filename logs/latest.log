@@ -1,0 +1,477 @@
+[14:09:18] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[14:09:18] [Server thread/INFO]: Loading properties
+[14:09:18] [Server thread/INFO]: Default game type: SURVIVAL
+[14:09:19] [Server thread/INFO]: This server is running Paper version git-Paper-1562 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[14:09:19] [Server thread/INFO]: Debug logging is disabled
+[14:09:19] [Server thread/INFO]: Server Ping Player Sample Count: 0
+[14:09:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:09:19] [Server thread/INFO]: Generating keypair
+[14:09:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:09:22] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[14:09:23] [Server thread/INFO]: [ViaVersion] Hooking into ProtocolSupport, to prevent issues!
+[14:09:27] [Server thread/INFO]: [AnimationLib] Loading AnimationLib v1.6.9
+[14:09:27] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9-SNAPSHOT;
+[14:09:27] [Server thread/INFO]: [TimTheEnchanter] Loading TimTheEnchanter v3.0
+[14:09:27] [Server thread/INFO]: [OresToItems] Loading OresToItems v2.0
+[14:09:27] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.9.2
+[14:09:27] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
+[14:09:27] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.8.7
+[14:09:27] [Server thread/INFO]: [DynPad] Loading DynPad v1.4
+[14:09:27] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;
+[14:09:27] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[14:09:27] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[14:09:27] [Server thread/INFO]: [Vault] Loading Vault v1.6.1
+[14:09:27] [Server thread/INFO]: [ProtocolSupport] Loading ProtocolSupport v4.28
+[14:09:27] [Server thread/INFO]: [ProtocolSupport] Detected Spigot server implementation type
+[14:09:27] [Server thread/INFO]: [ProtocolSupport] Allocator: PooledByteBufAllocator(directByDefault: true), direct: true
+[14:09:28] [Server thread/INFO]: [ProtocolSupport] Compression level: 3
+[14:09:28] [Server thread/INFO]: [ProtocolSupport] Assume 1.5.2 ping delay: 100
+[14:09:28] [Server thread/INFO]: [ProtocolSupport] Assume legacy ping delay: 200
+[14:09:28] [Server thread/INFO]: [ProtocolSupport] Login threads keep alive time: 60
+[14:09:33] [Server thread/INFO]: [MoneyMobs] Loading MoneyMobs v3.532
+[14:09:33] [Server thread/INFO]: [Chatty] Loading Chatty v2.15.1
+[14:09:33] [Server thread/INFO]: [Essentials] Loading Essentials v2.15.0.9
+[14:09:33] [Server thread/INFO]: [Jobs] Loading Jobs v4.10.3
+[14:09:33] [Server thread/INFO]: [AdvancedAbilities] Loading AdvancedAbilities v3.1.1
+[14:09:33] [Server thread/INFO]: [AntiRelog] Loading AntiRelog v2.1
+[14:09:33] [Server thread/INFO]: [Marriage] Loading Marriage v2.0.18
+[14:09:33] [Server thread/INFO]: [Marriage] Completed plugin pre-load stage.
+[14:09:33] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.24-SNAPSHOT (build 1605)
+[14:09:33] [Server thread/INFO]: [DonatCaseFixed] Loading DonatCaseFixed v0.1
+[14:09:33] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[14:09:33] [Server thread/INFO]: [CrazyAuctions] Loading CrazyAuctions v1.2.5.1
+[14:09:33] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v2.1.1
+[14:09:33] [Server thread/INFO]: [ViaVersion] ViaVersion 2.1.1 is now loaded, waiting for boot. (late-bind)
+[14:09:33] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.7
+[14:09:33] [Server thread/INFO]: [ItemJoin] Loading ItemJoin v5.0.1-SNAPSHOT
+[14:09:33] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.15.0.9
+[14:09:33] [Server thread/INFO]: [TitleManager] Loading TitleManager v2.1.3
+[14:09:33] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.4.0-SNAPSHOT-b399
+[14:09:34] [Server thread/INFO]: [ItemFixer] Loading ItemFixer v3.1
+[14:09:34] [Server thread/INFO]: [AnimatedMenuPlus] Loading AnimatedMenuPlus v3.2.6
+[14:09:34] [Server thread/INFO]: [ProtocolTags] Loading ProtocolTags v1.1a
+[14:09:34] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.6
+[14:09:34] [Server thread/INFO]: [LeaderHeads] Loading LeaderHeads v3.1.5
+[14:09:34] [Server thread/INFO]: [AnimationLib] Enabling AnimationLib v1.6.9
+[14:09:34] [Server thread/INFO]: [Vault] Enabling Vault v1.6.1
+[14:09:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:09:34] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[14:09:34] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:09:34] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[14:09:34] [Server thread/INFO]: [Vault] Plugin enabled (216ms)
+[14:09:34] [Server thread/INFO]: [ProtocolSupport] Enabling ProtocolSupport v4.28
+[14:09:34] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.4.0-SNAPSHOT-b399
+[14:09:34] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[14:09:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:09:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:09:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:09:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:09:34] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:09:34] [Server thread/INFO]: Preparing level "world"
+[14:09:34] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:09:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:09:34] [Server thread/INFO]: Item Merge Radius: 4.0
+[14:09:34] [Server thread/INFO]: View Distance: 4
+[14:09:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[14:09:34] [Server thread/INFO]: Arrow Despawn Rate: 100
+[14:09:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:09:34] [Server thread/INFO]: Experience Merge Radius: 6.0
+[14:09:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[14:09:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:09:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:09:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:09:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:09:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:09:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:09:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:09:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:09:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:09:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:09:34] [Server thread/INFO]: Mob Spawn Range: 3
+[14:09:34] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[14:09:34] [Server thread/INFO]: Structure Info Saving: true
+[14:09:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:09:34] [Server thread/INFO]: Entity Activation Range: An 12 / Mo 20 / Mi 3 / Tiv true
+[14:09:34] [Server thread/INFO]: Max TNT Explosions: 100
+[14:09:34] [Server thread/INFO]: Random Lighting Updates: false
+[14:09:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:09:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:09:35] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:09:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:09:35] [Server thread/INFO]: Item Merge Radius: 4.0
+[14:09:35] [Server thread/INFO]: View Distance: 4
+[14:09:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[14:09:35] [Server thread/INFO]: Arrow Despawn Rate: 100
+[14:09:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:09:35] [Server thread/INFO]: Experience Merge Radius: 6.0
+[14:09:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[14:09:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Mob Spawn Range: 3
+[14:09:35] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[14:09:35] [Server thread/INFO]: Structure Info Saving: true
+[14:09:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:09:35] [Server thread/INFO]: Entity Activation Range: An 12 / Mo 20 / Mi 3 / Tiv true
+[14:09:35] [Server thread/INFO]: Max TNT Explosions: 100
+[14:09:35] [Server thread/INFO]: Random Lighting Updates: false
+[14:09:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:09:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:09:35] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:09:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:09:35] [Server thread/INFO]: Item Merge Radius: 4.0
+[14:09:35] [Server thread/INFO]: View Distance: 4
+[14:09:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[14:09:35] [Server thread/INFO]: Arrow Despawn Rate: 100
+[14:09:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:09:35] [Server thread/INFO]: Experience Merge Radius: 6.0
+[14:09:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[14:09:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:09:35] [Server thread/INFO]: Mob Spawn Range: 3
+[14:09:35] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[14:09:35] [Server thread/INFO]: Structure Info Saving: true
+[14:09:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:09:35] [Server thread/INFO]: Entity Activation Range: An 12 / Mo 20 / Mi 3 / Tiv true
+[14:09:35] [Server thread/INFO]: Max TNT Explosions: 100
+[14:09:35] [Server thread/INFO]: Random Lighting Updates: false
+[14:09:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:09:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:09:35] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8384073585561361707)
+[14:09:36] [Server thread/INFO]: Preparing spawn area: 2%
+[14:09:37] [Server thread/WARN]: [DUPE-UUID] Duplicate UUID found used by EntitySheep['Sheep'/34, uuid='c9d36e2b-341c-4328-9a91-0bad8cd97d21', l='world', x=-265,49, y=70,00, z=170,90, cx=-17, cd=10, tl=278197, v=true, d=false], deleted entity EntitySheep['Sheep'/37, uuid='c9d36e2b-341c-4328-9a91-0bad8cd97d21', l='world', x=-266,16, y=70,00, z=177,47, cx=-17, cd=11, tl=281838, v=false, d=false] because it was near the duplicate and likely an actual duplicate. See https://github.com/PaperMC/Paper/issues/1223 for discussion on what this is about.
+[14:09:37] [Server thread/INFO]: Preparing spawn area: 22%
+[14:09:37] [Server thread/WARN]: [DUPE-UUID] Duplicate UUID found used by EntityVillager['Villager'/51, uuid='b868baa2-4417-42f6-9f21-331a8d14fa4f', l='world', x=-231,30, y=69,00, z=206,30, cx=-15, cd=12, tl=308029, v=true, d=false], deleted entity EntityVillager['Villager'/52, uuid='b868baa2-4417-42f6-9f21-331a8d14fa4f', l='world', x=-235,06, y=69,00, z=208,08, cx=-15, cd=13, tl=306042, v=false, d=false] because it was near the duplicate and likely an actual duplicate. See https://github.com/PaperMC/Paper/issues/1223 for discussion on what this is about.
+[14:09:38] [Server thread/INFO]: Preparing spawn area: 42%
+[14:09:39] [Server thread/INFO]: Preparing spawn area: 66%
+[14:09:40] [Server thread/WARN]: [DUPE-UUID] Duplicate UUID found used by EntityBat['Bat'/99, uuid='15a31595-6342-4ede-a645-3ba8d8c85c24', l='world', x=-70,50, y=45,00, z=-33,50, cx=-5, cd=-3, tl=1, v=true, d=false], deleted entity EntityBat['Bat'/100, uuid='15a31595-6342-4ede-a645-3ba8d8c85c24', l='world', x=-72,15, y=46,11, z=-31,83, cx=-5, cd=-2, tl=44, v=false, d=false] because it was near the duplicate and likely an actual duplicate. See https://github.com/PaperMC/Paper/issues/1223 for discussion on what this is about.
+[14:09:40] [Server thread/INFO]: Preparing spawn area: 88%
+[14:09:40] [Server thread/WARN]: [DUPE-UUID] Duplicate UUID found used by EntityBat['Bat'/99, uuid='15a31595-6342-4ede-a645-3ba8d8c85c24', l='world', x=-70,50, y=45,00, z=-33,50, cx=-5, cd=-3, tl=1, v=true, d=false], deleted entity EntityBat['Bat'/110, uuid='15a31595-6342-4ede-a645-3ba8d8c85c24', l='world', x=-47,81, y=48,38, z=-38,68, cx=-3, cd=-3, tl=229, v=false, d=false] because it was near the duplicate and likely an actual duplicate. See https://github.com/PaperMC/Paper/issues/1223 for discussion on what this is about.
+[14:09:40] [Server thread/WARN]: [DUPE-UUID] Duplicate UUID found used by EntityBat['Bat'/89, uuid='7fea6589-b5fe-46ae-a697-00115cdf9e25', l='world', x=-88,50, y=45,00, z=8,50, cx=-6, cd=0, tl=1, v=true, d=false], regenerated UUID for EntityBat['Bat'/119, uuid='27436710-1b3a-483b-8535-33d45dc4820f', l='world', x=-24,31, y=49,59, z=15,89, cx=-2, cd=0, tl=1427, v=false, d=false]. See https://github.com/PaperMC/Paper/issues/1223 for discussion on what this is about.
+[14:09:41] [Server thread/WARN]: [DUPE-UUID] Duplicate UUID found used by EntityBat['Bat'/89, uuid='7fea6589-b5fe-46ae-a697-00115cdf9e25', l='world', x=-88,50, y=45,00, z=8,50, cx=-6, cd=0, tl=1, v=true, d=false], regenerated UUID for EntityBat['Bat'/122, uuid='a97a2cbe-6c69-4479-b78e-85992439881b', l='world', x=0,16, y=45,01, z=16,33, cx=0, cd=1, tl=2252, v=false, d=false]. See https://github.com/PaperMC/Paper/issues/1223 for discussion on what this is about.
+[14:09:41] [Server thread/INFO]: Preparing spawn area: 109%
+[14:09:41] [Server thread/WARN]: [DUPE-UUID] Duplicate UUID found used by EntityBat['Bat'/89, uuid='7fea6589-b5fe-46ae-a697-00115cdf9e25', l='world', x=-88,50, y=45,00, z=8,50, cx=-6, cd=0, tl=1, v=true, d=false], regenerated UUID for EntityBat['Bat'/124, uuid='912496b6-bae7-4316-bf80-b712bdad8fa5', l='world', x=16,15, y=46,03, z=12,77, cx=1, cd=0, tl=2386, v=false, d=false]. See https://github.com/PaperMC/Paper/issues/1223 for discussion on what this is about.
+[14:09:42] [Server thread/INFO]: Preparing spawn area: 134%
+[14:09:43] [Server thread/WARN]: [DUPE-UUID] Duplicate UUID found used by EntityChicken['Chicken'/164, uuid='a6bcf735-5b06-4ce3-80ed-03953ad340b5', l='world', x=113,70, y=92,00, z=223,98, cx=7, cd=13, tl=271078, v=true, d=false], deleted entity EntityChicken['Chicken'/165, uuid='a6bcf735-5b06-4ce3-80ed-03953ad340b5', l='world', x=112,73, y=93,00, z=224,12, cx=7, cd=14, tl=269775, v=false, d=false] because it was near the duplicate and likely an actual duplicate. See https://github.com/PaperMC/Paper/issues/1223 for discussion on what this is about.
+[14:09:43] [Server thread/INFO]: Preparing spawn area: 157%
+[14:09:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: 5719105658230423322)
+[14:09:45] [Server thread/INFO]: Preparing spawn area: 19%
+[14:09:46] [Server thread/INFO]: Preparing spawn area: 43%
+[14:09:47] [Server thread/INFO]: Preparing spawn area: 68%
+[14:09:48] [Server thread/INFO]: Preparing spawn area: 90%
+[14:09:49] [Server thread/INFO]: Preparing spawn area: 112%
+[14:09:50] [Server thread/INFO]: Preparing spawn area: 136%
+[14:09:51] [Server thread/INFO]: Preparing spawn area: 158%
+[14:09:52] [Server thread/INFO]: Preparing spawn area: 170%
+[14:09:52] [Server thread/INFO]: Preparing start region for level 2 (Seed: 5719105658230423322)
+[14:09:53] [Server thread/INFO]: Preparing spawn area: 92%
+[14:09:54] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9-SNAPSHOT;
+[14:09:55] [Server thread/INFO]: WEPIF: Обновление конфигурационного файла
+[14:09:55] [Server thread/INFO]: WEPIF: Использование Bukkit Permissions API.
+[14:09:55] [Server thread/INFO]: [WorldEdit] Использую com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 для Bukkit адаптеров
+[14:09:55] [Server thread/INFO]: [TimTheEnchanter] Enabling TimTheEnchanter v3.0
+[14:09:55] [Server thread/INFO]: [Tim] Unused enchantments: MENDING(70) VANISHING_CURSE(71) DEPTH_STRIDER(8) FROST_WALKER(9) BINDING_CURSE(10) SWEEPING_EDGE(22) LUCK(61) LURE(62) 
+[14:09:55] [Server thread/INFO]: [TimTheEnchanter] There are some who call me... Tim?
+[14:09:55] [Server thread/INFO]: [OresToItems] Enabling OresToItems v2.0
+[14:09:55] [Server thread/INFO]: [OresToItems] enable.
+[14:09:55] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.9.2
+[14:09:55] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:09:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[14:09:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[14:09:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[14:09:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[14:09:55] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:09:55] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
+[14:09:55] [Server thread/INFO]: [ClearLag] Loading modules...
+[14:09:55] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[14:09:55] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[14:09:55] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[14:09:55] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.8.7
+[14:09:55] [Server thread/INFO]: [WorldBorder] [CONFIG] Using rectangular/square border, knockback of 3.0 blocks, and timer delay of 5.
+[14:09:55] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[14:09:56] [Server thread/INFO]: [WorldBorder] [CONFIG] World "world" has border radius 20000 at X: 118,5 Z: 166,5
+[14:09:56] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: -51,0 Y: 69,0 Z: 37,0
+[14:09:56] [Server thread/INFO]: [DynPad] Enabling DynPad v1.4
+[14:09:56] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world) Поджигание TNT РАЗРЕШЕНО.
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world) Зажигалки РАЗРЕШЕНЫ.
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world) Огонь лавы отключен.
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world) Распространение огня НЕОГРАНИЧЕНО.
+[14:09:56] [Server thread/INFO]: [WorldGuard] Загрузка конфигурации для мира 'world'
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world_nether) Поджигание TNT РАЗРЕШЕНО.
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world_nether) Зажигалки РАЗРЕШЕНЫ.
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world_nether) Огонь лавы отключен.
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world_nether) Распространение огня НЕОГРАНИЧЕНО.
+[14:09:56] [Server thread/INFO]: [WorldGuard] Загрузка конфигурации для мира 'world_nether'
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world_the_end) Поджигание TNT РАЗРЕШЕНО.
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world_the_end) Зажигалки РАЗРЕШЕНЫ.
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world_the_end) Огонь лавы отключен.
+[14:09:56] [Server thread/INFO]: [WorldGuard] (world_the_end) Распространение огня НЕОГРАНИЧЕНО.
+[14:09:56] [Server thread/INFO]: [WorldGuard] Загрузка конфигурации для мира 'world_the_end'
+[14:09:56] [Server thread/INFO]: [WorldGuard] Загрузка данных региона...
+[14:09:56] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[14:09:56] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[14:09:56] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[14:09:56] [Server thread/INFO]: WEPIF: PermissionsEx обнаружен! Использую PermissionEx для разрешений.
+[14:09:56] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[14:09:56] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[14:09:56] [Server thread/INFO]: [MoneyMobs] Enabling MoneyMobs v3.532
+[14:09:57] [Server thread/INFO]: [Chatty] Enabling Chatty v2.15.1
+[14:09:58] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[14:09:58] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[14:09:58] [Server thread/INFO]: [Essentials] Enabling Essentials v2.15.0.9
+[14:09:58] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[14:09:58] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[14:09:58] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[14:09:58] [Server thread/INFO]: [Essentials] Using locale ru
+[14:09:58] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[14:09:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:09:58] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[14:09:58] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[14:09:58] [Server thread/INFO]: [Jobs] Enabling Jobs v4.10.3
+[14:10:00] [Server thread/INFO]: [Jobs] PlaceholderAPI hooked.
+[14:10:00] [Server thread/INFO]: PlaceholderAPI was found - Enabling capabilities.
+[14:10:00] [Server thread/INFO]: [Jobs] Loaded 8 titles!
+[14:10:00] [Server thread/INFO]: [Jobs] Loaded 49 protected blocks timers!
+[14:10:01] [Server thread/INFO]: [Jobs] Loaded 452 custom item names!
+[14:10:01] [Server thread/INFO]: [Jobs] Loaded 51 custom entity names!
+[14:10:01] [Server thread/INFO]: [Jobs] Loaded 30 custom enchant names!
+[14:10:01] [Server thread/INFO]: [Jobs] Loaded 16 custom color names!
+[14:10:01] [Server thread/INFO]: [Jobs] Loaded 44 custom potion names!
+[14:10:01] [Server thread/INFO]: [Jobs] Loaded 4 shop items!
+[14:10:01] [Server thread/WARN]: [Jobs] Job Фермер has an invalid Break type property: CROPS-7!
+[14:10:01] [Server thread/WARN]: [Jobs] Job Фермер has an invalid Break type property: CARROT (CARROT-7)! Material must be a block!
+[14:10:01] [Server thread/WARN]: [Jobs] Job Фермер has an invalid Break type property: POTATO (POTATO-7)! Material must be a block!
+[14:10:01] [Server thread/WARN]: [Jobs] Job Фермер has an invalid Place type property: CROPS-0!
+[14:10:02] [Server thread/INFO]: [Jobs] Loaded 12 jobs!
+[14:10:02] [Server thread/INFO]: [Jobs] Explorer job manager registered!
+[14:10:02] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Started database save task.
+[14:10:02] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Started buffered payment thread.
+[14:10:02] [Server thread/INFO]: [Jobs] Preloaded 6 players data in 0.01
+[14:10:02] [Server thread/INFO]: [Jobs] WorldGuard detected.
+[14:10:02] [Server thread/INFO]: [Jobs] Loading explorer data
+[14:10:02] [Server thread/INFO]: [Jobs] Loaded explorer data (123)
+[14:10:02] [Server thread/INFO]: [Jobs] Plugin has been enabled successfully.
+[14:10:02] [Server thread/INFO]: [AdvancedAbilities] Enabling AdvancedAbilities v3.1.1
+[14:10:06] [Server thread/INFO]: [AdvancedAbilities] Loading...
+[14:10:06] [Server thread/INFO]: ############################# AdvancedAbilities v3.1.1 #############################
+[14:10:06] [Server thread/INFO]: 
+[14:10:06] [Server thread/INFO]: Plugin was loaded, if some result is incorrect, try re-read the configurations, 
+[14:10:06] [Server thread/INFO]: or else read the wiki, the results are below: 
+[14:10:06] [Server thread/INFO]: 
+[14:10:06] [Server thread/INFO]: Files: The files were generated successfully.
+[14:10:06] [Server thread/INFO]: Command: The command was registered in commands storage.
+[14:10:06] [Server thread/INFO]: Plugin manager: The managers were created.
+[14:10:06] [Server thread/INFO]: Abilities: 14 abilities were registered.
+[14:10:06] [Server thread/INFO]: Inventories: 3 pages were registered.
+[14:10:06] [Server thread/INFO]: Economy: Economy was injected in abilities prices successfully.
+[14:10:06] [Server thread/INFO]: Events: The events were loaded correctly
+[14:10:06] [Server thread/INFO]: Api: The api was loaded successfully.
+[14:10:06] [Server thread/INFO]: MySQL: The MySQL was not loaded because it's disabled from Setting.yml
+[14:10:06] [Server thread/INFO]: Latest version: The plugin version is up to date.
+[14:10:06] [Server thread/INFO]: Hook plugins: PlayerPoints, WorldGuard, PlaceholderAPI, TokenManager, Vault
+[14:10:06] [Server thread/INFO]: 
+[14:10:06] [Server thread/INFO]: ####################################################################################
+[14:10:06] [Server thread/INFO]:  
+[14:10:06] [Server thread/INFO]: ############################# AdvancedAbilities ERRORS #############################
+[14:10:06] [Server thread/INFO]:  
+[14:10:06] [Server thread/INFO]: Catcher of errors: Plugin does not found errors.
+[14:10:06] [Server thread/INFO]:  
+[14:10:06] [Server thread/INFO]: ####################################################################################
+[14:10:06] [Server thread/INFO]:  
+[14:10:06] [Server thread/INFO]: ############################# AdvancedAbilities ALERTS #############################
+[14:10:06] [Server thread/INFO]:  
+[14:10:06] [Server thread/INFO]: Alerts: Plugin does not found issues.
+[14:10:06] [Server thread/INFO]:  
+[14:10:06] [Server thread/INFO]: ####################################################################################
+[14:10:06] [Server thread/INFO]: [AntiRelog] Enabling AntiRelog v2.1
+[14:10:06] [Server thread/INFO]: [Marriage] Enabling Marriage v2.0.18
+[14:10:06] [Server thread/INFO]: [Marriage] Loading config...
+[14:10:06] [Server thread/INFO]: [Marriage] Hooked with PermissionsEx using Vault!
+[14:10:06] [Server thread/INFO]: [Marriage] Loading dependencies...
+[14:10:06] [Server thread/INFO]: [Marriage] Loading commands...
+[14:10:06] [Server thread/INFO]: [Marriage] Loading listeners...
+[14:10:06] [Server thread/INFO]: [Marriage] Loading database...
+[14:10:06] [Server thread/INFO]: [Marriage] Loading updater...
+[14:10:06] [Server thread/INFO]: [Marriage] Loading converter...
+[14:10:06] [Server thread/INFO]: [Marriage] Completed plugin load stage.
+[14:10:06] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.24-SNAPSHOT (build 1605)
+[14:10:07] [Server thread/INFO]: [DonatCaseFixed] Enabling DonatCaseFixed v0.1
+[14:10:07] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
+[14:10:07] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.2.5.1
+[14:10:07] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v2.1.1
+[14:10:08] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 block mapping...
+[14:10:09] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 item mapping...
+[14:10:09] [Server thread/INFO]: [ViaVersion] Loading new 1.13 tags...
+[14:10:09] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 enchantment mapping...
+[14:10:09] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 sound mapping...
+[14:10:09] [Server thread/INFO]: [ViaVersion] Loading translation mappping
+[14:10:09] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 blockstate mapping...
+[14:10:16] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 block mapping...
+[14:10:16] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 item mapping...
+[14:10:16] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 sound mapping...
+[14:10:16] [Server thread/INFO]: [ViaVersion] Loading 1.14 blockstates...
+[14:10:16] [Server thread/INFO]: [ViaVersion] Loading 1.14 heightmap data...
+[14:10:16] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.7
+[14:10:16] [Server thread/INFO]: Injecting command info into Citizens.
+[14:10:16] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v5.0.1-SNAPSHOT
+[14:10:16] [Server thread/INFO]: [ItemJoin] Hooked into Vault!
+[14:10:16] [Server thread/INFO]: [ItemJoin] Hooked into PlaceholderAPI!
+[14:10:16] [Server thread/INFO]: [ItemJoin] Could not find Multiverse-Core.
+[14:10:16] [Server thread/INFO]: [ItemJoin] Could not find AuthMe.
+[14:10:16] [Server thread/INFO]: [ItemJoin] Hooked into WorldGuard!
+[14:10:16] [Server thread/INFO]: [ItemJoin] Could not find HeadDatabase.
+[14:10:16] [Server thread/INFO]: [ItemJoin] has been Enabled!
+[14:10:16] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.15.0.9
+[14:10:16] [Server thread/INFO]: [TitleManager] Enabling TitleManager v2.1.3
+[14:10:18] [Server thread/INFO]: [ItemFixer] Enabling ItemFixer v3.1
+[14:10:18] [Server thread/INFO]: [ItemFixer] enabled
+[14:10:18] [Server thread/INFO]: [AnimatedMenuPlus] Enabling AnimatedMenuPlus v3.2.6
+[14:10:18] [Server thread/INFO]: [ProtocolTags] Enabling ProtocolTags v1.1a
+[14:10:18] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
+[14:10:18] [Server thread/INFO]: [HolographicDisplays] Found ProtocolLib, using new version.
+[14:10:18] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[14:10:18] [Server thread/INFO]: [LeaderHeads] Enabling LeaderHeads v3.1.5
+[14:10:18] [Server thread/INFO]: [LeaderHeads] Cracked by DirectLeaks.net
+[14:10:18] [Server thread/INFO]: [LeaderHeads] Correctly initialized skin manager
+[14:10:20] [Server thread/INFO]: [LeaderHeads] Loaded automatic reward: kills
+[14:10:20] [Server thread/INFO]: [LeaderHeads] Loaded automatic reward: votes
+[14:10:20] [Server thread/INFO]: [LeaderHeads] Hooked into Citizens
+[14:10:20] [Server thread/INFO]: [LeaderHeads] Hooked into HolographicDisplays
+[14:10:21] [Server thread/INFO]: Done (46,667s)! For help, type "help" or "?"
+[14:10:21] [Server thread/INFO]: Using default channel type
+[14:10:22] [Server thread/INFO]: Timings Reset
+[14:10:22] [Craft Scheduler Thread - 6/INFO]: [ClearLag] 0 Logs have been removed!
+[14:10:22] [Craft Scheduler Thread - 10/INFO]: [Marriage] Purged 1 player entries in 28ms
+[14:10:22] [Server thread/INFO]: [Jobs] Successfully linked with Vault.
+[14:10:22] [Server thread/INFO]: [ChestCommands] Found a new version: v3.3.1 (yours: v3.1.4)
+[14:10:22] [Server thread/INFO]: [ChestCommands] Download it on Bukkit Dev:
+[14:10:22] [Server thread/INFO]: [ChestCommands] dev.bukkit.org/bukkit-plugins/chest-commands
+[14:10:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[14:10:22] [Server thread/INFO]: [AnimatedMenuPlus] Loading menus...
+[14:10:22] [Craft Scheduler Thread - 5/INFO]: [PlaceholderAPI] 174 placeholder expansions are available on the cloud.
+[14:10:22] [Craft Scheduler Thread - 5/INFO]: [PlaceholderAPI] 2 installed expansions have updates available.
+[14:10:22] [Server thread/INFO]: [AnimatedMenuPlus] 3 menus loaded
+[14:10:22] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v2.4.2
+[14:10:22] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[14:10:22] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/bukkit-plugins/holographic-displays
+[14:10:22] [Craft Scheduler Thread - 7/WARN]: [CrazyAuctions] com.massivestats.MassiveStats was unable to communicate with its API endpoint.
+[14:10:23] [Server thread/INFO]: [Citizens] Loaded 10 NPCs.
+[14:10:23] [Server thread/WARN]: [ViaVersion] There is a newer version available: 2.2.3, you're on: 2.1.1
+[14:13:23] [Server thread/INFO]: CONSOLE issued server command: /help 
+[14:13:23] [Server thread/INFO]: Для просмотра помощи из консоли введите ?.
+[14:13:43] [LoginProcessingThread/INFO]: UUID of player grant is 842fee8c-bf97-3bb0-9025-c82e8b2b6332
+[14:13:44] [Server thread/INFO]: grant[/127.0.0.1:51585] logged in with entity id 399 at ([world]-41.5, 67.0, 35.5)
+[14:13:44] [pool-25-thread-1/INFO]: [Essentials] Создаю пустой конфигурационный файл: C:\Local\Projects\Other\mc-server\plugins\Essentials\userdata\842fee8c-bf97-3bb0-9025-c82e8b2b6332.yml
+[14:14:03] [Server thread/INFO]: grant issued server command: /chestcommands open block
+[14:14:04] [Server thread/INFO]: grant issued server command: /chestcommands open block
+[14:14:16] [Server thread/INFO]: CONSOLE issued server command: /give grant 2 8
+[14:14:16] [Server thread/INFO]: Выдано 8 штук grass игроку grant.
+[14:16:02] [Server thread/INFO]: grant issued server command: /chestcommands open eda
+[14:16:04] [Server thread/INFO]: CONSOLE issued server command: /give grant 412 8
+[14:16:04] [Server thread/INFO]: Выдано 8 штук cooked rabbit игроку grant.
+[14:16:05] [Server thread/INFO]: grant issued server command: /chestcommands open draco
+[14:16:08] [Server thread/INFO]: CONSOLE issued server command: /give grant 264 1
+[14:16:08] [Server thread/INFO]: Выдано 1 штук diamond игроку grant.
+[14:16:08] [Server thread/INFO]: CONSOLE issued server command: /give grant 264 1
+[14:16:08] [Server thread/INFO]: Выдано 1 штук diamond игроку grant.
+[14:16:10] [Server thread/INFO]: grant has made the advancement [Diamonds!]
+[14:16:17] [Server thread/INFO]: grant lost connection: Disconnected
+[14:16:23] [Server thread/INFO]: Stopping the server
+[14:16:23] [Server thread/INFO]: Stopping server
+[14:16:23] [Server thread/INFO]: [LeaderHeads] Disabling LeaderHeads v3.1.5
+[14:16:23] [Server thread/INFO]: [LeaderHeads] Shutting down database connection.
+[14:16:23] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.2.6
+[14:16:23] [Server thread/INFO]: [ProtocolTags] Disabling ProtocolTags v1.1a
+[14:16:23] [Server thread/INFO]: [AnimatedMenuPlus] Disabling AnimatedMenuPlus v3.2.6
+[14:16:23] [Server thread/INFO]: [ItemFixer] Disabling ItemFixer v3.1
+[14:16:23] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.4.0-SNAPSHOT-b399
+[14:16:23] [Server thread/INFO]: [TitleManager] Disabling TitleManager v2.1.3
+[14:16:23] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.15.0.9
+[14:16:23] [Server thread/INFO]: [ItemJoin] Disabling ItemJoin v5.0.1-SNAPSHOT
+[14:16:23] [Server thread/INFO]: [ItemJoin] has been Disabled!
+[14:16:23] [Server thread/INFO]: [CommandNPC] Disabling CommandNPC v1.7
+[14:16:23] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v2.1.1
+[14:16:23] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[14:16:23] [Server thread/INFO]: [CrazyAuctions] Disabling CrazyAuctions v1.2.5.1
+[14:16:23] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
+[14:16:23] [Server thread/INFO]: [DonatCaseFixed] Disabling DonatCaseFixed v0.1
+[14:16:23] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.24-SNAPSHOT (build 1605)
+[14:16:23] [Server thread/INFO]: [Marriage] Disabling Marriage v2.0.18
+[14:16:23] [Server thread/INFO]: [Marriage] Loading database...
+[14:16:23] [Server thread/INFO]: [Marriage] Plugin has been completely disabled.
+[14:16:23] [Server thread/INFO]: [AntiRelog] Disabling AntiRelog v2.1
+[14:16:23] [Server thread/INFO]: [AdvancedAbilities] Disabling AdvancedAbilities v3.1.1
+[14:16:23] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder hook for placeholder: advancedabilities
+[14:16:23] [Server thread/INFO]: ############################# AdvancedAbilities v3.1.1 #############################
+[14:16:23] [Server thread/INFO]: 
+[14:16:23] [Server thread/INFO]: Plugin was unloaded, All events were removed: 
+[14:16:23] [Server thread/INFO]: 
+[14:16:23] [Server thread/INFO]: The SQL connection was closed.
+[14:16:23] [Server thread/INFO]: 
+[14:16:23] [Server thread/INFO]: triple_arrow_shot: was unloaded.
+[14:16:23] [Server thread/INFO]: adrenaline_boost: was unloaded.
+[14:16:23] [Server thread/INFO]: feather_weight: was unloaded.
+[14:16:23] [Server thread/INFO]: aggressive_mode: was unloaded.
+[14:16:23] [Server thread/INFO]: arrow_tank_skin: was unloaded.
+[14:16:23] [Server thread/INFO]: antidote: was unloaded.
+[14:16:23] [Server thread/INFO]: legendary_protection: was unloaded.
+[14:16:23] [Server thread/INFO]: vampire_mode: was unloaded.
+[14:16:23] [Server thread/INFO]: mining_luck: was unloaded.
+[14:16:23] [Server thread/INFO]: woodchopping_luck: was unloaded.
+[14:16:23] [Server thread/INFO]: pirate: was unloaded.
+[14:16:23] [Server thread/INFO]: fire_resistance: was unloaded.
+[14:16:23] [Server thread/INFO]: explosive_arrow: was unloaded.
+[14:16:23] [Server thread/INFO]: sword_push: was unloaded.
+[14:16:23] [Server thread/INFO]: 
+[14:16:23] [Server thread/INFO]: ####################################################################################
+[14:16:23] [Server thread/INFO]: [Jobs] Disabling Jobs v4.10.3
+[14:16:23] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder hook for placeholder: jobsr
+[14:16:23] [Server thread/INFO]: [Jobs] Saved 11 new explorer entries.
+[14:16:23] [Server thread/INFO]: [Jobs] Saving blocks
+[14:16:23] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Buffered payment thread shutdown.
+[14:16:23] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Database save task shutdown!
+[14:16:23] [Server thread/INFO]: [Jobs] Plugin has been disabled successfully.
+[14:16:23] [Server thread/INFO]: [Essentials] Disabling Essentials v2.15.0.9
+[14:16:23] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[14:16:23] [Server thread/INFO]: [Chatty] Disabling Chatty v2.15.1
+[14:16:23] [Server thread/INFO]: [MoneyMobs] Disabling MoneyMobs v3.532
+[14:16:23] [Server thread/INFO]: [ProtocolSupport] Disabling ProtocolSupport v4.28
+[14:16:23] [Server thread/INFO]: [Vault] Disabling Vault v1.6.1
+[14:16:23] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: vault
+[14:16:23] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[14:16:23] [Server thread/INFO]: WEPIF: PermissionsEx обнаружен! Использую PermissionEx для разрешений.
+[14:16:23] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.2-SNAPSHOT;
+[14:16:23] [Server thread/INFO]: [WorldGuard] Завершение работы исполнителя и ожидание каких-либо незавершенных задач...
+[14:16:23] [Server thread/INFO]: [DynPad] Disabling DynPad v1.4
+[14:16:23] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.8.7
+[14:16:23] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[14:16:23] [Server thread/INFO]: [ClearLag] Disabling ClearLag v2.9.7
+[14:16:23] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[14:16:23] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.9.2
+[14:16:23] [Server thread/INFO]: [OresToItems] Disabling OresToItems v2.0
+[14:16:23] [Server thread/INFO]: [TimTheEnchanter] Disabling TimTheEnchanter v3.0
+[14:16:23] [Server thread/INFO]: [TimTheEnchanter] I *warned* you, but did you listen to me? Oh, no, you *knew*, didn't you? Oh, it's just a harmless little *bunny*, isn't it? 
+[14:16:23] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9-SNAPSHOT;
+[14:16:23] [Server thread/INFO]: [AnimationLib] Disabling AnimationLib v1.6.9
+[14:16:23] [Server thread/INFO]: Saving players
+[14:16:23] [Server thread/INFO]: Saving worlds
+[14:16:23] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[14:16:24] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[14:16:24] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
+[14:16:24] [Server thread/INFO]: Saving usercache.json

@@ -1,0 +1,61 @@
+actions:
+  inMenu:
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    alreadyPurchased: NONE:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    onPurchasing: ENTITY_PLAYER_LEVELUP:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    notAvailable: NONE:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    openMenu: ENTITY_CHICKEN_EGG:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    onDisabling: NONE:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    changePage: NONE:1:1
+  rpgSystem:
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    onLevelUp: ENTITY_ENDERDRAGON_GROWL:1:1
+    # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+    earnExp: ENTITY_EXPERIENCE_ORB_PICKUP:1:1
+  abilities:
+    triple_arrow_shot:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      onShoot: ENTITY_GHAST_SHOOT:1:1
+    adrenaline_boost:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      speedSound: ENTITY_ENDERMEN_TELEPORT:1:1
+    arrow_tank_skin:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: ENTITY_IRONGOLEM_ATTACK:1:1
+    fire_resistance:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: ENTITY_IRONGOLEM_HURT:1:1
+    mining_luck:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: ENTITY_CHICKEN_EGG:1:1
+    woodchopping_luck:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: ENTITY_CHICKEN_EGG:1:1
+    pirate:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: ENTITY_CHICKEN_EGG:1:1
+    legendary_protection:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: BLOCK_METAL_HIT:1:5
+    vampire_mode:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      onRegenerating: ENTITY_GENERIC_EAT:1:1
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      endRegeneration: ENTITY_PLAYER_BURP:1:1
+    antidote:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: ENTITY_GENERIC_DRINK:1:-1
+    explosive_arrow:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: BLOCK_LEVER_CLICK:1:1
+    sword_push:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      sound: ENTITY_GENERIC_EXPLODE:1:5
+    aggressive_mode:
+      # Sound executes with these arguments <SOUND>:<VOLUME>:<PITCH>
+      hitSound: NONE:1:1

@@ -1,0 +1,60 @@
+alert-settings:
+  updates:
+    # This is added to the description on plugin load
+    onPluginLoad: true
+    # Alert to player on join
+    onOpJoin: true
+system_mode:
+  # If you want other system you can change "DEFAULT" to "RPG_SYSTEM" for example.
+  SYSTEM_TYPE: DEFAULT
+  all_systems:
+    rpgSystem:
+      # Name of the system, If you want to use this system you've to replace "SYSTEM_TYPE" by this name
+      NAME_TYPE: RPG_SYSTEM
+    permissionSystem:
+      # Name of the system, If you want to use this system you've to replace "SYSTEM_TYPE" by this name
+      NAME_TYPE: PERMISSION_SYSTEM
+    defaultSystem:
+      # Name of the system, If you want to use this system you've to replace "SYSTEM_TYPE" by this name
+      NAME_TYPE: DEFAULT
+      inStorage:
+        save_players_method:
+          # All types: "MINECRAFT_USERNAME", "UUID"
+          type: UUID
+options:
+  abilityIsDisabled:
+    # You can hide the ability items if the ability was disabled by the server
+    hideBlocks: false
+  commands:
+    # You can add custom permission to open the menu
+    permissionToOpen: NONE
+    # Add here the name of world to disable ability in that world
+    disabledWorlds:
+    - example_world
+    # Add here the name of WorldGuard(Plugin) region to disable ability in that region
+    disabledRegions:
+    - example_worldguard_region
+  onJoin:
+    giveItem:
+      # If you don't want this, change this to "false"
+      enable: false
+      # Name of the item
+      name: ''
+      # This is the slot of player inventory
+      slot: 4
+      # Item is displayed in menu <ID>:<DATA>:<AMOUNT>
+      material: 54:0:1:true
+      # Description of the item
+      description:
+      - ''
+MySQL:
+  enable: false
+  hostname: localhost
+  username: root
+  password: ''
+  port: 3306
+  database: database_name
+API:
+  # Actually the developers can do abilities and hook it with this plugin
+  enable: true
+ConfigFile: 1.0.0

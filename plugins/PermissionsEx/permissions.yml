@@ -1,0 +1,165 @@
+groups:
+  Игрок:
+    permissions:
+    - chatex.allowchat
+    - chatex.chat.global
+    - itemjoin.use
+    - essentials.spawn
+    - essentials.more
+    - essentials.sethome
+    - essentials.home
+    - essentials.kit
+    - essentials.kits.starter
+    - essentials.warp
+    - essentials.balance
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - dynpad.*
+    - worldguard.region.addmember.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.flag.flags.pvp.*
+    - worldguard.region.flag.regions.own.*
+    - worldguard.region.info.*
+    - worldguard.region.remove.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.removeowner.own.*
+    - worldguard.region.select.own.*
+    - CrazyAuctions.Access
+    - CrazyAuctions.Bid
+    - CrazyAuctions.Bid.128
+    - CrazyAuctions.Sell
+    - CrazyAuctions.Sell.128
+    - CrazyAuctions.View
+    - chatty.chat.global
+    - chatty.chat.local
+    - chatty.command.reply
+    options:
+      prefix: '&7'
+      suffix: ''
+      default: true
+  Vip:
+    permissions:
+    - status.itcool
+    - donate.iron
+    - essentials.kit
+    - essentials.kits.iron
+    - essentials.workbench
+    - essentials.ext
+    - essentials.heal
+    - essentials.feed
+    - essentials.hat
+    inheritance:
+    - Игрок
+    options:
+      prefix: '[&eВип&f] &e'
+      suffix: ''
+  Premium:
+    permissions:
+    - donate.crystal
+    - -essentials.kits.iron
+    - essentials.kits.crystal
+    - essentials.repair
+    - OresToItems.Use
+    - acidisland.island.range.120
+    - acidisland.team.maxsize.8
+    inheritance:
+    - Vip
+    options:
+      prefix: '[&5Премиум&f] &5'
+      suffix: ''
+  Creative:
+    permissions:
+    - donate.ruby
+    - -essentials.kits.crystal
+    - essentials.kits.ruby
+    - acidisland.island.range.130
+    - acidisland.team.maxsize.12
+    - essentials.ptime
+    - essentials.clearinventory
+    inheritance:
+    - Premium
+    options:
+      prefix: '[&aКреатив&f] &a'
+      suffix: ''
+  Admin:
+    permissions:
+    - donate.titan
+    - -essentials.kits.ruby
+    - essentials.kits.titan
+    - essentials.fly
+    - essentials.fly.safelogin
+    - acidisland.island.range.140
+    - acidisland.team.maxsize.15
+    inheritance:
+    - Creative
+    options:
+      prefix: '[&cАдмин&f] &c'
+      suffix: ''
+  Lord:
+    permissions:
+    - donate.legend
+    - -essentials.kits.titan
+    - essentials.kits.legend
+    - acidisland.island.range.150
+    - essentials.back.ondeath
+    - essentials.god
+    inheritance:
+    - Admin
+    options:
+      prefix: '[&3Лорд&f] &3'
+      suffix: ''
+  GlAdmin:
+    permissions:
+    - donate.warden
+    - essentials.kits.titan
+    - essentials.kits.ruby
+    - essentials.kits.crystal
+    - essentials.kits.iron
+    - acidisland.island.range.170
+    - acidisland.team.maxsize.18
+    inheritance:
+    - Lord
+    options:
+      prefix: '[&cГл. админ&f] &c'
+  Sponsor:
+    permissions:
+    - essentials.invsee
+    inheritance:
+    - GlAdmin
+    options:
+      prefix: '[&eСпонсор&f] &e'
+      suffix: ''
+  Sozdatel:
+    permissions:
+    - essentials.invsee
+    inheritance:
+    - Sponsor
+    options:
+      prefix: '[&bСоздатель&f] &b'
+      suffix: ''
+  Moder:
+    permissions:
+    - essentials.invsee
+    inheritance:
+    - Sozdatel
+    options:
+      prefix: '[&9Модер&f] &9'
+      suffix: ''
+  Osnovatel:
+    permissions:
+    - essentials.invsee
+    inheritance:
+    - Moder
+    options:
+      prefix: '[&dОснователь&f] &d'
+      suffix: ''
+  Youtube:
+    permissions:
+    - essentials.invsee
+    inheritance:
+    - Osnovatel
+    options:
+      prefix: '[&6Ютубер&f] &6'
+      suffix: ''
+schema-version: 1
